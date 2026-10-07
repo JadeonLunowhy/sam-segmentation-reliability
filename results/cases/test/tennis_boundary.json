@@ -1,0 +1,116 @@
+{
+  "image_id": "tennis",
+  "dataset": "iseg",
+  "split": "test",
+  "regime": "boundary",
+  "point": [
+    256.0,
+    160.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 10.816653826391969
+  },
+  "true_iou": 0.9693082913421897,
+  "confidence": 0.9005508422851562,
+  "stability": 0.91605223844634,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9005508422851562,
+      "consistency": 0.5046674392456154,
+      "minimum": 0.01920280772123339,
+      "fusion": 0.7026091407653858,
+      "flip": 0.9736894262213854
+    },
+    "r0.01_k4": {
+      "confidence": 0.9005508422851562,
+      "consistency": 0.5054719959955714,
+      "minimum": 0.01920280772123339,
+      "fusion": 0.7030114191403638,
+      "flip": 0.9736894262213854
+    },
+    "r0.01_k8": {
+      "confidence": 0.9005508422851562,
+      "consistency": 0.5045667660174139,
+      "minimum": 0.01915266984206568,
+      "fusion": 0.7025588041512851,
+      "flip": 0.9736894262213854
+    },
+    "r0.03_k2": {
+      "confidence": 0.9005508422851562,
+      "consistency": 0.00979696547189534,
+      "minimum": 0.00029278290147855365,
+      "fusion": 0.4551739038785258,
+      "flip": 0.9736894262213854
+    },
+    "r0.03_k4": {
+      "confidence": 0.9005508422851562,
+      "consistency": 0.25154406628003656,
+      "minimum": 0.00015518846777252818,
+      "fusion": 0.5760474542825964,
+      "flip": 0.9736894262213854
+    },
+    "r0.03_k8": {
+      "confidence": 0.9005508422851562,
+      "consistency": 0.2492381209585617,
+      "minimum": 0.0,
+      "fusion": 0.574894481621859,
+      "flip": 0.9736894262213854
+    },
+    "r0.06_k2": {
+      "confidence": 0.9005508422851562,
+      "consistency": 0.4699464391985717,
+      "minimum": 0.0,
+      "fusion": 0.685248640741864,
+      "flip": 0.9736894262213854
+    },
+    "r0.06_k4": {
+      "confidence": 0.9005508422851562,
+      "consistency": 0.35291361456291626,
+      "minimum": 0.0,
+      "fusion": 0.6267322284240362,
+      "flip": 0.9736894262213854
+    },
+    "r0.06_k8": {
+      "confidence": 0.9005508422851562,
+      "consistency": 0.2356263068959514,
+      "minimum": 0.0,
+      "fusion": 0.5680885745905538,
+      "flip": 0.9736894262213854
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 1.0,
+    "r0.03_k4": 0.75,
+    "r0.03_k8": 0.75,
+    "r0.06_k2": 1.0,
+    "r0.06_k4": 0.75,
+    "r0.06_k8": 0.75
+  },
+  "object_fraction": 0.0824957627118644,
+  "timing": {
+    "encoding": 0.3037532999878749,
+    "flip_encoding": 0.2565547999693081,
+    "original_decode": 0.005250399932265282,
+    "flip_decode": 0.00537659996189177,
+    "perturbation_batches_8": {
+      "0.01": 0.01997469994239509,
+      "0.03": 0.019599799998104572,
+      "0.06": 0.01999860000796616
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\iseg\\images\\tennis.jpg": "f9e739be49e0382a3613d6d6b5d7e056050ebcfcb8d95dc023d9a458b326e1c6",
+    "data\\prepared\\iseg\\tennis_target.png": "fbd1643dfcc6b3d13d2c335cc0b12ff356af60c6794f23a25a6d41024fa3c247",
+    "data\\prepared\\iseg\\tennis_valid.png": "435d97e4cf05f1722c6d58a465f807938449981243cd70d0d64a9f9550284b1a"
+  },
+  "mask_path": "results\\cases\\test\\tennis_boundary.npz",
+  "mask_hash": "4c8b011a2f1f6a4fb2a6f0c23d348799d76f5cc66165e34f026ddbd0f0889175"
+}

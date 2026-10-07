@@ -1,0 +1,62 @@
+{
+  "device": "cuda",
+  "radius": 0.06,
+  "samples": [
+    {
+      "image_id": "189080",
+      "encoder_seconds": 0.47421330003999174,
+      "original_decode_seconds": 0.00475750002078712,
+      "additional_prompt_seconds": {
+        "2": 0.011046999949030578,
+        "4": 0.010110400035046041,
+        "8": 0.018802299979142845
+      },
+      "additional_flip_seconds": 0.26329590007662773
+    },
+    {
+      "image_id": "24077",
+      "encoder_seconds": 0.27339679992292076,
+      "original_decode_seconds": 0.004953900002874434,
+      "additional_prompt_seconds": {
+        "2": 0.0068199000088498,
+        "4": 0.01108079997356981,
+        "8": 0.019293999997898936
+      },
+      "additional_flip_seconds": 0.28761709993705153
+    },
+    {
+      "image_id": "271008",
+      "encoder_seconds": 0.28247929993085563,
+      "original_decode_seconds": 0.004959900048561394,
+      "additional_prompt_seconds": {
+        "2": 0.006852099904790521,
+        "4": 0.010536900022998452,
+        "8": 0.020186500041745603
+      },
+      "additional_flip_seconds": 0.27180530002806336
+    },
+    {
+      "image_id": "304074",
+      "encoder_seconds": 0.2601245999103412,
+      "original_decode_seconds": 0.00548940000589937,
+      "additional_prompt_seconds": {
+        "2": 0.007075099973008037,
+        "4": 0.011517999926581979,
+        "8": 0.020747300004586577
+      },
+      "additional_flip_seconds": 0.29385170014575124
+    },
+    {
+      "image_id": "69020",
+      "encoder_seconds": 0.26154720003250986,
+      "original_decode_seconds": 0.0051033999770879745,
+      "additional_prompt_seconds": {
+        "2": 0.006558399996720254,
+        "4": 0.01064700004644692,
+        "8": 0.02011869999114424
+      },
+      "additional_flip_seconds": 0.26830200001131743
+    }
+  ],
+  "note": "measured batches; five validation images; inference-only"
+}

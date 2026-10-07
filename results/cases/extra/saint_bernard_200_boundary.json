@@ -1,0 +1,116 @@
+{
+  "image_id": "saint_bernard_200",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "boundary",
+  "point": [
+    410.0,
+    265.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 1.0
+  },
+  "true_iou": 0.2632303757623451,
+  "confidence": 0.9532732963562012,
+  "stability": 0.9791925465838509,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9532732963562012,
+      "consistency": 0.499294670846395,
+      "minimum": 0.0,
+      "fusion": 0.7262839836012981,
+      "flip": 0.2726258421662447
+    },
+    "r0.01_k4": {
+      "confidence": 0.9532732963562012,
+      "consistency": 0.49925548589341695,
+      "minimum": 0.0,
+      "fusion": 0.726264391124809,
+      "flip": 0.2726258421662447
+    },
+    "r0.01_k8": {
+      "confidence": 0.9532732963562012,
+      "consistency": 0.624236031528989,
+      "minimum": 0.0,
+      "fusion": 0.7887546639425951,
+      "flip": 0.2726258421662447
+    },
+    "r0.03_k2": {
+      "confidence": 0.9532732963562012,
+      "consistency": 0.49820115751603317,
+      "minimum": 0.0,
+      "fusion": 0.7257372269361172,
+      "flip": 0.2726258421662447
+    },
+    "r0.03_k4": {
+      "confidence": 0.9532732963562012,
+      "consistency": 0.4984347476441203,
+      "minimum": 0.0,
+      "fusion": 0.7258540220001608,
+      "flip": 0.2726258421662447
+    },
+    "r0.03_k8": {
+      "confidence": 0.9532732963562012,
+      "consistency": 0.6231603762976734,
+      "minimum": 0.0,
+      "fusion": 0.7882168363269373,
+      "flip": 0.2726258421662447
+    },
+    "r0.06_k2": {
+      "confidence": 0.9532732963562012,
+      "consistency": 0.4975,
+      "minimum": 0.0,
+      "fusion": 0.7253866481781006,
+      "flip": 0.2726258421662447
+    },
+    "r0.06_k4": {
+      "confidence": 0.9532732963562012,
+      "consistency": 0.4973828125,
+      "minimum": 0.0,
+      "fusion": 0.7253280544281006,
+      "flip": 0.2726258421662447
+    },
+    "r0.06_k8": {
+      "confidence": 0.9532732963562012,
+      "consistency": 0.6217758277305978,
+      "minimum": 0.0,
+      "fusion": 0.7875245620433995,
+      "flip": 0.2726258421662447
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.5,
+    "r0.01_k4": 0.5,
+    "r0.01_k8": 0.375,
+    "r0.03_k2": 0.5,
+    "r0.03_k4": 0.5,
+    "r0.03_k8": 0.625,
+    "r0.06_k2": 0.5,
+    "r0.06_k4": 0.75,
+    "r0.06_k8": 0.625
+  },
+  "object_fraction": 0.108432,
+  "timing": {
+    "encoding": 0.26984200009610504,
+    "flip_encoding": 0.28306579997297376,
+    "original_decode": 0.00579450000077486,
+    "flip_decode": 0.005923199933022261,
+    "perturbation_batches_8": {
+      "0.01": 0.019110499997623265,
+      "0.03": 0.020901900017634034,
+      "0.06": 0.020921199931763113
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\saint_bernard_200.jpg": "a8ff654f9d03d70c23d19f4d687fa3e666ef9fb0e81cac92a6481a4766c41812",
+    "data\\prepared\\pets\\saint_bernard_200_target.png": "8a401f3a15bc7f8da83a43c56baedd5fde2571b50213f851b204a190d55e13c9",
+    "data\\prepared\\pets\\saint_bernard_200_valid.png": "3b9f19dc250ea65bded3de7d0c3ba2ac55c314c873700f42bb431a200e42da00"
+  },
+  "mask_path": "results\\cases\\extra\\saint_bernard_200_boundary.npz",
+  "mask_hash": "34d7747c0fcb17f17473c8008b9704673c3ffeb2fa1b582fb87b8bd0c673a0d3"
+}

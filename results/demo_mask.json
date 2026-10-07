@@ -1,0 +1,16 @@
+{
+  "scores": {
+    "confidence": 0.9519282579421997,
+    "consistency": 0.6799686665865282,
+    "minimum": 0.0,
+    "fusion": 0.815948462264364,
+    "stability": 0.9546737364235013
+  },
+  "cell": "r0.06_k8",
+  "point": [
+    155.0,
+    195.0
+  ],
+  "interpretation": "ranking scores, not calibrated correctness probabilities",
+  "device": "cuda"
+}

@@ -1,0 +1,116 @@
+{
+  "image_id": "chihuahua_62",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "boundary",
+  "point": [
+    101.0,
+    202.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 4.123105625617661
+  },
+  "true_iou": 0.9981470923603193,
+  "confidence": 0.9527199864387512,
+  "stability": 0.8498609065619375,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9527199864387512,
+      "consistency": 0.9233255354327483,
+      "minimum": 0.8502793681451335,
+      "fusion": 0.9380227609357498,
+      "flip": 0.7021565301671917
+    },
+    "r0.01_k4": {
+      "confidence": 0.9527199864387512,
+      "consistency": 0.9601071136702166,
+      "minimum": 0.8502793681451335,
+      "fusion": 0.9564135500544839,
+      "flip": 0.7021565301671917
+    },
+    "r0.01_k8": {
+      "confidence": 0.9527199864387512,
+      "consistency": 0.9603085768984024,
+      "minimum": 0.8502793681451335,
+      "fusion": 0.9565142816685768,
+      "flip": 0.7021565301671917
+    },
+    "r0.03_k2": {
+      "confidence": 0.9527199864387512,
+      "consistency": 0.4963215749489822,
+      "minimum": 0.0,
+      "fusion": 0.7245207806938667,
+      "flip": 0.7021565301671917
+    },
+    "r0.03_k4": {
+      "confidence": 0.9527199864387512,
+      "consistency": 0.7412076741095619,
+      "minimum": 0.0,
+      "fusion": 0.8469638302741566,
+      "flip": 0.7021565301671917
+    },
+    "r0.03_k8": {
+      "confidence": 0.9527199864387512,
+      "consistency": 0.7206001117947922,
+      "minimum": 0.0,
+      "fusion": 0.8366600491167717,
+      "flip": 0.7021565301671917
+    },
+    "r0.06_k2": {
+      "confidence": 0.9527199864387512,
+      "consistency": 0.49723063162240266,
+      "minimum": 0.0,
+      "fusion": 0.7249753090305769,
+      "flip": 0.7021565301671917
+    },
+    "r0.06_k4": {
+      "confidence": 0.9527199864387512,
+      "consistency": 0.7399754432482106,
+      "minimum": 0.0,
+      "fusion": 0.8463477148434809,
+      "flip": 0.7021565301671917
+    },
+    "r0.06_k8": {
+      "confidence": 0.9527199864387512,
+      "consistency": 0.49528932373175516,
+      "minimum": 0.0,
+      "fusion": 0.7240046550852532,
+      "flip": 0.7021565301671917
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.5,
+    "r0.01_k4": 0.25,
+    "r0.01_k8": 0.25,
+    "r0.03_k2": 0.5,
+    "r0.03_k4": 0.25,
+    "r0.03_k8": 0.375,
+    "r0.06_k2": 0.5,
+    "r0.06_k4": 0.25,
+    "r0.06_k8": 0.375
+  },
+  "object_fraction": 0.25130149253731343,
+  "timing": {
+    "encoding": 0.2921218000119552,
+    "flip_encoding": 0.2678950000554323,
+    "original_decode": 0.005502299987711012,
+    "flip_decode": 0.005242000101134181,
+    "perturbation_batches_8": {
+      "0.01": 0.01979729998856783,
+      "0.03": 0.019094299990683794,
+      "0.06": 0.01932630001101643
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\chihuahua_62.jpg": "00b6820ae947c4042cce2b2f7cbb355dd05d552c2a523016a578ae370d2df0c5",
+    "data\\prepared\\pets\\chihuahua_62_target.png": "7a2e1733ba0fb73cd3008e76c45212e510a1d6f350f6443c72414a6bc873ef9e",
+    "data\\prepared\\pets\\chihuahua_62_valid.png": "f534df39e2c113c0ea621f4a399a2c298c9be4c3e0f7b613a5f77864c5d4a6e4"
+  },
+  "mask_path": "results\\cases\\extra\\chihuahua_62_boundary.npz",
+  "mask_hash": "1b6237b59e5c283a06648f06a96e297b31d24664c9e442b46fd847ff2cb0fa73"
+}

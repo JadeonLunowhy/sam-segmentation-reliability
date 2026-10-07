@@ -1,0 +1,116 @@
+{
+  "image_id": "British_Shorthair_98",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "boundary",
+  "point": [
+    59.0,
+    143.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 11.0
+  },
+  "true_iou": 0.005557106701852669,
+  "confidence": 0.9573397636413574,
+  "stability": 0.9812680115273775,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9573397636413574,
+      "consistency": 0.16174810778647117,
+      "minimum": 0.005644256211549016,
+      "fusion": 0.5595439357139143,
+      "flip": 0.936231884057971
+    },
+    "r0.01_k4": {
+      "confidence": 0.9573397636413574,
+      "consistency": 0.33089380338966834,
+      "minimum": 0.005644256211549016,
+      "fusion": 0.6441167835155128,
+      "flip": 0.936231884057971
+    },
+    "r0.01_k8": {
+      "confidence": 0.9573397636413574,
+      "consistency": 0.41620658830411994,
+      "minimum": 0.005644256211549016,
+      "fusion": 0.6867731759727387,
+      "flip": 0.936231884057971
+    },
+    "r0.03_k2": {
+      "confidence": 0.9573397636413574,
+      "consistency": 0.16110304789550073,
+      "minimum": 0.0,
+      "fusion": 0.559221405768429,
+      "flip": 0.936231884057971
+    },
+    "r0.03_k4": {
+      "confidence": 0.9573397636413574,
+      "consistency": 0.0833683858391369,
+      "minimum": 0.0,
+      "fusion": 0.5203540747402472,
+      "flip": 0.936231884057971
+    },
+    "r0.03_k8": {
+      "confidence": 0.9573397636413574,
+      "consistency": 0.08354729445183169,
+      "minimum": 0.0,
+      "fusion": 0.5204435290465945,
+      "flip": 0.936231884057971
+    },
+    "r0.06_k2": {
+      "confidence": 0.9573397636413574,
+      "consistency": 0.0028048021488469603,
+      "minimum": 0.0,
+      "fusion": 0.4800722828951022,
+      "flip": 0.936231884057971
+    },
+    "r0.06_k4": {
+      "confidence": 0.9573397636413574,
+      "consistency": 0.004214895752763037,
+      "minimum": 0.0,
+      "fusion": 0.4807773296970602,
+      "flip": 0.936231884057971
+    },
+    "r0.06_k8": {
+      "confidence": 0.9573397636413574,
+      "consistency": 0.003515223956002394,
+      "minimum": 0.0,
+      "fusion": 0.4804274937986799,
+      "flip": 0.936231884057971
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.5,
+    "r0.03_k4": 0.25,
+    "r0.03_k8": 0.375,
+    "r0.06_k2": 0.5,
+    "r0.06_k4": 0.5,
+    "r0.06_k8": 0.625
+  },
+  "object_fraction": 0.6272824858757062,
+  "timing": {
+    "encoding": 0.2677415000507608,
+    "flip_encoding": 0.2606737999012694,
+    "original_decode": 0.005173600045964122,
+    "flip_decode": 0.005921500036492944,
+    "perturbation_batches_8": {
+      "0.01": 0.019303400069475174,
+      "0.03": 0.01906510000117123,
+      "0.06": 0.019288800074718893
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\British_Shorthair_98.jpg": "0fbbde6cc4b282e3537649ce9e740fd85119a6539fbebf7cb180da4a19a99ba4",
+    "data\\prepared\\pets\\British_Shorthair_98_target.png": "f950a8c02c1de60ee08c609543718e558cd7c9cefadc4bba79aee26a79ab9269",
+    "data\\prepared\\pets\\British_Shorthair_98_valid.png": "353dc2fc1241aa2d49493970b3ae81643d902f9d4e64018c56850ee74ffa7bb9"
+  },
+  "mask_path": "results\\cases\\extra\\British_Shorthair_98_boundary.npz",
+  "mask_hash": "8d4e8100d8283d1f2e7ec8308e6e2284f277e594483915b77ed40761379021e7"
+}

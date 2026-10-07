@@ -1,0 +1,116 @@
+{
+  "image_id": "music",
+  "dataset": "iseg",
+  "split": "test",
+  "regime": "interior",
+  "point": [
+    331.0,
+    209.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 145.01379244747721
+  },
+  "true_iou": 0.5403292989993729,
+  "confidence": 0.9486147165298462,
+  "stability": 0.9708842191444361,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9486147165298462,
+      "consistency": 0.9992993384883385,
+      "minimum": 0.9992733941144923,
+      "fusion": 0.9739570275090923,
+      "flip": 0.9944531803493978
+    },
+    "r0.01_k4": {
+      "confidence": 0.9486147165298462,
+      "consistency": 0.9994031465121784,
+      "minimum": 0.9992733941144923,
+      "fusion": 0.9740089315210123,
+      "flip": 0.9944531803493978
+    },
+    "r0.01_k8": {
+      "confidence": 0.9486147165298462,
+      "consistency": 0.9994009809635283,
+      "minimum": 0.9992042210881411,
+      "fusion": 0.9740078487466872,
+      "flip": 0.9944531803493978
+    },
+    "r0.03_k2": {
+      "confidence": 0.9486147165298462,
+      "consistency": 0.997319779574153,
+      "minimum": 0.9963688551519029,
+      "fusion": 0.9729672480519995,
+      "flip": 0.9944531803493978
+    },
+    "r0.03_k4": {
+      "confidence": 0.9486147165298462,
+      "consistency": 0.9978040797350254,
+      "minimum": 0.9963688551519029,
+      "fusion": 0.9732093981324358,
+      "flip": 0.9944531803493978
+    },
+    "r0.03_k8": {
+      "confidence": 0.9486147165298462,
+      "consistency": 0.9978945846918605,
+      "minimum": 0.9963688551519029,
+      "fusion": 0.9732546506108534,
+      "flip": 0.9944531803493978
+    },
+    "r0.06_k2": {
+      "confidence": 0.9486147165298462,
+      "consistency": 0.4984004288579927,
+      "minimum": 0.0,
+      "fusion": 0.7235075726939194,
+      "flip": 0.9944531803493978
+    },
+    "r0.06_k4": {
+      "confidence": 0.9486147165298462,
+      "consistency": 0.7472487570169096,
+      "minimum": 0.0,
+      "fusion": 0.8479317367733779,
+      "flip": 0.9944531803493978
+    },
+    "r0.06_k8": {
+      "confidence": 0.9486147165298462,
+      "consistency": 0.7466804248139507,
+      "minimum": 0.0,
+      "fusion": 0.8476475706718984,
+      "flip": 0.9944531803493978
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.34775716145833335,
+  "timing": {
+    "encoding": 0.2705825000302866,
+    "flip_encoding": 0.27935049997176975,
+    "original_decode": 0.0057607999769970775,
+    "flip_decode": 0.005766100017353892,
+    "perturbation_batches_8": {
+      "0.01": 0.02235859993379563,
+      "0.03": 0.02157939993776381,
+      "0.06": 0.020531399990431964
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\iseg\\images\\music.jpg": "6f0f0ec5e7bbfdc6ef2ebe99d033b5b8896d4da6517279205f05a5c8ab00ad1b",
+    "data\\prepared\\iseg\\music_target.png": "4da40ee24e7064dacedb5bca8720b0e750d9bb3156bc363905b560ce64368fba",
+    "data\\prepared\\iseg\\music_valid.png": "1d4aac81b793030550a2e06faeda9645c86bccf20fc01e2301f47dad8d2c50d1"
+  },
+  "mask_path": "results\\cases\\test\\music_interior.npz",
+  "mask_hash": "1a766bcc78e599aceefaaae1f94aae5629ab796598c4840800b10bd99f931c71"
+}

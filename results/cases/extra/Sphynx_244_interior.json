@@ -1,0 +1,116 @@
+{
+  "image_id": "Sphynx_244",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "interior",
+  "point": [
+    93.0,
+    89.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 48.507731342539614
+  },
+  "true_iou": 0.854940260770413,
+  "confidence": 0.9141658544540405,
+  "stability": 0.7615171050774081,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9141658544540405,
+      "consistency": 0.9977764126223081,
+      "minimum": 0.9972895571238621,
+      "fusion": 0.9559711335381743,
+      "flip": 0.9797446722959389
+    },
+    "r0.01_k4": {
+      "confidence": 0.9141658544540405,
+      "consistency": 0.9975476297239702,
+      "minimum": 0.9957624955327513,
+      "fusion": 0.9558567420890054,
+      "flip": 0.9797446722959389
+    },
+    "r0.01_k8": {
+      "confidence": 0.9141658544540405,
+      "consistency": 0.9974898190569133,
+      "minimum": 0.9957624955327513,
+      "fusion": 0.9558278367554769,
+      "flip": 0.9797446722959389
+    },
+    "r0.03_k2": {
+      "confidence": 0.9141658544540405,
+      "consistency": 0.9895149832743875,
+      "minimum": 0.9821938775510204,
+      "fusion": 0.951840418864214,
+      "flip": 0.9797446722959389
+    },
+    "r0.03_k4": {
+      "confidence": 0.9141658544540405,
+      "consistency": 0.9907085801018332,
+      "minimum": 0.9821938775510204,
+      "fusion": 0.9524372172779368,
+      "flip": 0.9797446722959389
+    },
+    "r0.03_k8": {
+      "confidence": 0.9141658544540405,
+      "consistency": 0.9906845213198339,
+      "minimum": 0.981128226053249,
+      "fusion": 0.9524251878869372,
+      "flip": 0.9797446722959389
+    },
+    "r0.06_k2": {
+      "confidence": 0.9141658544540405,
+      "consistency": 0.9787969609214617,
+      "minimum": 0.9631001928738199,
+      "fusion": 0.9464814076877511,
+      "flip": 0.9797446722959389
+    },
+    "r0.06_k4": {
+      "confidence": 0.9141658544540405,
+      "consistency": 0.7377386715555203,
+      "minimum": 0.0035288702500895002,
+      "fusion": 0.8259522630047804,
+      "flip": 0.9797446722959389
+    },
+    "r0.06_k8": {
+      "confidence": 0.9141658544540405,
+      "consistency": 0.7383838004825901,
+      "minimum": 0.001994578837007109,
+      "fusion": 0.8262748274683154,
+      "flip": 0.9797446722959389
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.504275,
+  "timing": {
+    "encoding": 0.271363899926655,
+    "flip_encoding": 0.2740989000303671,
+    "original_decode": 0.00637690001167357,
+    "flip_decode": 0.005735900020226836,
+    "perturbation_batches_8": {
+      "0.01": 0.02070400002412498,
+      "0.03": 0.019611299969255924,
+      "0.06": 0.01948739995714277
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\Sphynx_244.jpg": "5e2b4447ed26eead271418109c6450e5cf8649d371627ecab22488ef52a48849",
+    "data\\prepared\\pets\\Sphynx_244_target.png": "f1331ae0e7f611422ba86ea16cbb1237cc464b54124c20872d2c43acf5255023",
+    "data\\prepared\\pets\\Sphynx_244_valid.png": "203d5519bb6d801abd59601165f768fef513dedc4765a4897b6e44f3cf3a6b6f"
+  },
+  "mask_path": "results\\cases\\extra\\Sphynx_244_interior.npz",
+  "mask_hash": "2af8defad476a1e6c9f702d824d69dd2510663c6959f349727bb542d285f1305"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "image_id": "dog_2007_001239",
+    "regime": "interior",
+    "true_iou": 0.33828813611375574,
+    "confidence": 0.9410841464996338,
+    "consistency": 0.9638429630738996
+  },
+  {
+    "image_id": "person_2007_002426",
+    "regime": "interior",
+    "true_iou": 0.34082815235105934,
+    "confidence": 0.9398918151855469,
+    "consistency": 0.976672040055476
+  },
+  {
+    "image_id": "aero_2007_009030",
+    "regime": "interior",
+    "true_iou": 0.0034189226904828354,
+    "confidence": 0.8323321342468262,
+    "consistency": 0.002699877763612781
+  },
+  {
+    "image_id": "fullmoon",
+    "regime": "interior",
+    "true_iou": 0.9996783876500858,
+    "confidence": 0.9989655017852783,
+    "consistency": 0.9874484387247783
+  }
+]

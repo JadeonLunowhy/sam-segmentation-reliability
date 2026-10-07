@@ -1,0 +1,6 @@
+{
+  "url": "https://download.pytorch.org/whl/cu128/torch-2.8.0%2Bcu128-cp313-cp313-win_amd64.whl",
+  "bytes": 3461390892,
+  "sha256": "9e20646802b7fc295c1f8b45fefcfc9fb2e4ec9cbe8593443cd2b9cc307c8405",
+  "transfer": "verified byte ranges"
+}

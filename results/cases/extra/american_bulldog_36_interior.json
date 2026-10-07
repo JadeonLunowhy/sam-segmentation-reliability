@@ -1,0 +1,116 @@
+{
+  "image_id": "american_bulldog_36",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "interior",
+  "point": [
+    84.0,
+    126.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 36.22154055254967
+  },
+  "true_iou": 0.9990878686530861,
+  "confidence": 0.9447999000549316,
+  "stability": 0.9150570676031606,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9447999000549316,
+      "consistency": 0.9990251538466637,
+      "minimum": 0.9987614962959566,
+      "fusion": 0.9719125269507977,
+      "flip": 0.9889267656546706
+    },
+    "r0.01_k4": {
+      "confidence": 0.9447999000549316,
+      "consistency": 0.999156917078045,
+      "minimum": 0.9987614962959566,
+      "fusion": 0.9719784085664883,
+      "flip": 0.9889267656546706
+    },
+    "r0.01_k8": {
+      "confidence": 0.9447999000549316,
+      "consistency": 0.9991253584756032,
+      "minimum": 0.9987614962959566,
+      "fusion": 0.9719626292652674,
+      "flip": 0.9889267656546706
+    },
+    "r0.03_k2": {
+      "confidence": 0.9447999000549316,
+      "consistency": 0.9837645289357606,
+      "minimum": 0.9688131081329172,
+      "fusion": 0.9642822144953461,
+      "flip": 0.9889267656546706
+    },
+    "r0.03_k4": {
+      "confidence": 0.9447999000549316,
+      "consistency": 0.9904540017048334,
+      "minimum": 0.9688131081329172,
+      "fusion": 0.9676269508798825,
+      "flip": 0.9889267656546706
+    },
+    "r0.03_k8": {
+      "confidence": 0.9447999000549316,
+      "consistency": 0.992367197729791,
+      "minimum": 0.9688131081329172,
+      "fusion": 0.9685835488923613,
+      "flip": 0.9889267656546706
+    },
+    "r0.06_k2": {
+      "confidence": 0.9447999000549316,
+      "consistency": 0.5032950618034961,
+      "minimum": 0.009249271304307912,
+      "fusion": 0.7240474809292139,
+      "flip": 0.9889267656546706
+    },
+    "r0.06_k4": {
+      "confidence": 0.9447999000549316,
+      "consistency": 0.7463873046297718,
+      "minimum": 0.009249271304307912,
+      "fusion": 0.8455936023423517,
+      "flip": 0.9889267656546706
+    },
+    "r0.06_k8": {
+      "confidence": 0.9447999000549316,
+      "consistency": 0.8692643649320199,
+      "minimum": 0.009249271304307912,
+      "fusion": 0.9070321324934758,
+      "flip": 0.9889267656546706
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.125
+  },
+  "object_fraction": 0.13773652694610777,
+  "timing": {
+    "encoding": 0.25467010005377233,
+    "flip_encoding": 0.27420679992064834,
+    "original_decode": 0.005375100066885352,
+    "flip_decode": 0.005944899981841445,
+    "perturbation_batches_8": {
+      "0.01": 0.020667999982833862,
+      "0.03": 0.01954250002745539,
+      "0.06": 0.019496699911542237
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\american_bulldog_36.jpg": "15bdd741b02282c09c00a36fea88191ef7e96148053b3ae395775149f3717f14",
+    "data\\prepared\\pets\\american_bulldog_36_target.png": "dd5e14fea1fa2e65c0e064ec6ae95da01468203f96d44704dd11a6039ec7ee07",
+    "data\\prepared\\pets\\american_bulldog_36_valid.png": "6aa562ac508bde9622a6b0db7f77c7ec1eb0f9059de1924e12fd74faff5d41fb"
+  },
+  "mask_path": "results\\cases\\extra\\american_bulldog_36_interior.npz",
+  "mask_hash": "bd7aeba53a7ec7be6ff6b1b5372cfcf5af85b494f7b539e63806c7766acee298"
+}

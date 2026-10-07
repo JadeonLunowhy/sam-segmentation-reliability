@@ -1,0 +1,10 @@
+.venv/
+tmp/
+data/raw/
+models/*.pth
+__pycache__/
+*.pyc
+.chart-data-*/
+.env
+.env.*
+!.env.example

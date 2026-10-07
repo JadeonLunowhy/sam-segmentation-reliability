@@ -1,0 +1,116 @@
+{
+  "image_id": "grave",
+  "dataset": "iseg",
+  "split": "test",
+  "regime": "boundary",
+  "point": [
+    281.0,
+    436.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 9.219544457292887
+  },
+  "true_iou": 0.7247488019786675,
+  "confidence": 0.9058597683906555,
+  "stability": 0.9431860074550444,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9058597683906555,
+      "consistency": 0.8558744837269971,
+      "minimum": 0.7173972561068354,
+      "fusion": 0.8808671260588263,
+      "flip": 0.9914032869785082
+    },
+    "r0.01_k4": {
+      "confidence": 0.9058597683906555,
+      "consistency": 0.8535913628825449,
+      "minimum": 0.7136842742912527,
+      "fusion": 0.8797255656366002,
+      "flip": 0.9914032869785082
+    },
+    "r0.01_k8": {
+      "confidence": 0.9058597683906555,
+      "consistency": 0.8451478382524829,
+      "minimum": 0.7136842742912527,
+      "fusion": 0.8755038033215692,
+      "flip": 0.9914032869785082
+    },
+    "r0.03_k2": {
+      "confidence": 0.9058597683906555,
+      "consistency": 0.71760341294501,
+      "minimum": 0.7145197003245473,
+      "fusion": 0.8117315906678327,
+      "flip": 0.9914032869785082
+    },
+    "r0.03_k4": {
+      "confidence": 0.9058597683906555,
+      "consistency": 0.5392394839101293,
+      "minimum": 0.0,
+      "fusion": 0.7225496261503924,
+      "flip": 0.9914032869785082
+    },
+    "r0.03_k8": {
+      "confidence": 0.9058597683906555,
+      "consistency": 0.4506894113797187,
+      "minimum": 0.0,
+      "fusion": 0.6782745898851871,
+      "flip": 0.9914032869785082
+    },
+    "r0.06_k2": {
+      "confidence": 0.9058597683906555,
+      "consistency": 0.7201674156611453,
+      "minimum": 0.7160910112700872,
+      "fusion": 0.8130135920259004,
+      "flip": 0.9914032869785082
+    },
+    "r0.06_k4": {
+      "confidence": 0.9058597683906555,
+      "consistency": 0.5399652923999434,
+      "minimum": 0.0,
+      "fusion": 0.7229125303952995,
+      "flip": 0.9914032869785082
+    },
+    "r0.06_k8": {
+      "confidence": 0.9058597683906555,
+      "consistency": 0.4776635415532808,
+      "minimum": 0.0,
+      "fusion": 0.6917616549719682,
+      "flip": 0.9914032869785082
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.25,
+    "r0.03_k8": 0.375,
+    "r0.06_k2": 0.5,
+    "r0.06_k4": 0.5,
+    "r0.06_k8": 0.5
+  },
+  "object_fraction": 0.11972592592592593,
+  "timing": {
+    "encoding": 0.28531579999253154,
+    "flip_encoding": 0.28545239998493344,
+    "original_decode": 0.0059671999188140035,
+    "flip_decode": 0.006378000020049512,
+    "perturbation_batches_8": {
+      "0.01": 0.020214299904182553,
+      "0.03": 0.019679600023664534,
+      "0.06": 0.020065699936822057
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\iseg\\images\\grave.jpg": "5bb926394030d4dd70c289d608cce3b9d75fab634b9c4799a411e40b6d1ace20",
+    "data\\prepared\\iseg\\grave_target.png": "88d615e2241b1a01516464191d24da2e1c0c628b3d96c33330dd9ce79c51218d",
+    "data\\prepared\\iseg\\grave_valid.png": "f9a39952f345800f4be721a4175eeed466884cb450f4491462f883ac76980342"
+  },
+  "mask_path": "results\\cases\\test\\grave_boundary.npz",
+  "mask_hash": "51c68f050ee9a6ad6de6afceeb8fe90508d2eb536541413d810127fe25840d3d"
+}

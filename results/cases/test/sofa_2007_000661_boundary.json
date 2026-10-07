@@ -1,0 +1,116 @@
+{
+  "image_id": "sofa_2007_000661",
+  "dataset": "iseg",
+  "split": "test",
+  "regime": "boundary",
+  "point": [
+    144.0,
+    234.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 5.385164807134504
+  },
+  "true_iou": 0.08823529411764706,
+  "confidence": 0.7993815541267395,
+  "stability": 0.9180201082753287,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.7993815541267395,
+      "consistency": 0.4831233572011239,
+      "minimum": 0.0015408320493066256,
+      "fusion": 0.6412524556639317,
+      "flip": 0.9629337539432177
+    },
+    "r0.01_k4": {
+      "confidence": 0.7993815541267395,
+      "consistency": 0.4765300330309417,
+      "minimum": 0.0,
+      "fusion": 0.6379557935788406,
+      "flip": 0.9629337539432177
+    },
+    "r0.01_k8": {
+      "confidence": 0.7993815541267395,
+      "consistency": 0.469677499273665,
+      "minimum": 0.0,
+      "fusion": 0.6345295267002022,
+      "flip": 0.9629337539432177
+    },
+    "r0.03_k2": {
+      "confidence": 0.7993815541267395,
+      "consistency": 0.45625942684766213,
+      "minimum": 0.0,
+      "fusion": 0.6278204904872008,
+      "flip": 0.9629337539432177
+    },
+    "r0.03_k4": {
+      "confidence": 0.7993815541267395,
+      "consistency": 0.22812971342383107,
+      "minimum": 0.0,
+      "fusion": 0.5137556337752853,
+      "flip": 0.9629337539432177
+    },
+    "r0.03_k8": {
+      "confidence": 0.7993815541267395,
+      "consistency": 0.19548324023014058,
+      "minimum": 0.0,
+      "fusion": 0.49743239717844,
+      "flip": 0.9629337539432177
+    },
+    "r0.06_k2": {
+      "confidence": 0.7993815541267395,
+      "consistency": 0.0,
+      "minimum": 0.0,
+      "fusion": 0.39969077706336975,
+      "flip": 0.9629337539432177
+    },
+    "r0.06_k4": {
+      "confidence": 0.7993815541267395,
+      "consistency": 0.0,
+      "minimum": 0.0,
+      "fusion": 0.39969077706336975,
+      "flip": 0.9629337539432177
+    },
+    "r0.06_k8": {
+      "confidence": 0.7993815541267395,
+      "consistency": 0.040577988915281075,
+      "minimum": 0.0,
+      "fusion": 0.4199797715210103,
+      "flip": 0.9629337539432177
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.25,
+    "r0.01_k8": 0.125,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.25,
+    "r0.03_k8": 0.25,
+    "r0.06_k2": 0.5,
+    "r0.06_k4": 0.75,
+    "r0.06_k8": 0.75
+  },
+  "object_fraction": 0.06419733333333333,
+  "timing": {
+    "encoding": 0.2935534999705851,
+    "flip_encoding": 0.27474180003628135,
+    "original_decode": 0.005553200026042759,
+    "flip_decode": 0.006301200017333031,
+    "perturbation_batches_8": {
+      "0.01": 0.019664300023578107,
+      "0.03": 0.019588000024668872,
+      "0.06": 0.02035719994455576
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\iseg\\images\\sofa_2007_000661.jpg": "a31f00b5c587ef6e953ce8f42cfafaf2425d55e10e8f8245e48442cc5875ce82",
+    "data\\prepared\\iseg\\sofa_2007_000661_target.png": "429ea8774de92d0754c5afef2e682cf4c1862a7a0f972d251853dcf7c591b68e",
+    "data\\prepared\\iseg\\sofa_2007_000661_valid.png": "5cbcfba0a34841d7117cd2a3319f5f81e2ac7c0bd382fe52ddfd124e5d32bcff"
+  },
+  "mask_path": "results\\cases\\test\\sofa_2007_000661_boundary.npz",
+  "mask_hash": "ff30a16c91d321cc9e44cad3f3531d2a8adea2c05c0d142f240000acbd419756"
+}

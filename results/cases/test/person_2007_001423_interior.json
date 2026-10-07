@@ -1,0 +1,116 @@
+{
+  "image_id": "person_2007_001423",
+  "dataset": "iseg",
+  "split": "test",
+  "regime": "interior",
+  "point": [
+    246.0,
+    246.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 69.1158447825099
+  },
+  "true_iou": 0.06988405889680284,
+  "confidence": 0.9790362119674683,
+  "stability": 0.9800543970988214,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9790362119674683,
+      "consistency": 0.9974878533338563,
+      "minimum": 0.9972577696526508,
+      "fusion": 0.9882620326506623,
+      "flip": 0.9895407003183265
+    },
+    "r0.01_k4": {
+      "confidence": 0.9790362119674683,
+      "consistency": 0.9982870969690326,
+      "minimum": 0.9972577696526508,
+      "fusion": 0.9886616544682505,
+      "flip": 0.9895407003183265
+    },
+    "r0.01_k8": {
+      "confidence": 0.9790362119674683,
+      "consistency": 0.9981728637079896,
+      "minimum": 0.9972577696526508,
+      "fusion": 0.988604537837729,
+      "flip": 0.9895407003183265
+    },
+    "r0.03_k2": {
+      "confidence": 0.9790362119674683,
+      "consistency": 0.016934944598263668,
+      "minimum": 0.015949141200089226,
+      "fusion": 0.49798557828286594,
+      "flip": 0.9895407003183265
+    },
+    "r0.03_k4": {
+      "confidence": 0.9790362119674683,
+      "consistency": 0.5066419252596726,
+      "minimum": 0.015949141200089226,
+      "fusion": 0.7428390686135704,
+      "flip": 0.9895407003183265
+    },
+    "r0.03_k8": {
+      "confidence": 0.9790362119674683,
+      "consistency": 0.25764311377124877,
+      "minimum": 0.005514912774338773,
+      "fusion": 0.6183396628693585,
+      "flip": 0.9895407003183265
+    },
+    "r0.06_k2": {
+      "confidence": 0.9790362119674683,
+      "consistency": 0.16525523548985524,
+      "minimum": 0.08863560916233264,
+      "fusion": 0.5721457237286618,
+      "flip": 0.9895407003183265
+    },
+    "r0.06_k4": {
+      "confidence": 0.9790362119674683,
+      "consistency": 0.5803452420058113,
+      "minimum": 0.08863560916233264,
+      "fusion": 0.7796907269866398,
+      "flip": 0.9895407003183265
+    },
+    "r0.06_k8": {
+      "confidence": 0.9790362119674683,
+      "consistency": 0.2962498674768448,
+      "minimum": 0.0056186088324530845,
+      "fusion": 0.6376430397221565,
+      "flip": 0.9895407003183265
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.18804204204204203,
+  "timing": {
+    "encoding": 0.27664789999835193,
+    "flip_encoding": 0.27638509997632354,
+    "original_decode": 0.005509900045581162,
+    "flip_decode": 0.005757199949584901,
+    "perturbation_batches_8": {
+      "0.01": 0.020062800031155348,
+      "0.03": 0.019629299989901483,
+      "0.06": 0.0197588000446558
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\iseg\\images\\person_2007_001423.jpg": "155a509c23cd97141dcc628ce815392a2f437dce70b851970309362e8364d330",
+    "data\\prepared\\iseg\\person_2007_001423_target.png": "fd3c410099706320809e33cb33c09d1d4cc12d96c06cfca8ce330097a12cd556",
+    "data\\prepared\\iseg\\person_2007_001423_valid.png": "7b8fc84b66268844f735a243e7e77aa280fa1af8d641861cc81cdb24ab3d4b38"
+  },
+  "mask_path": "results\\cases\\test\\person_2007_001423_interior.npz",
+  "mask_hash": "d043616ec0ecccded30c64a97dcb9edcaeb931a00e78526c3819a8a0d2ecc0d4"
+}

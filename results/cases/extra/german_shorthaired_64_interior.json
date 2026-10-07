@@ -1,0 +1,116 @@
+{
+  "image_id": "german_shorthaired_64",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "interior",
+  "point": [
+    160.0,
+    195.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 79.12016177940993
+  },
+  "true_iou": 0.9962555100880034,
+  "confidence": 0.944329559803009,
+  "stability": 0.9052781320514078,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.944329559803009,
+      "consistency": 0.998812995096213,
+      "minimum": 0.9987369750552574,
+      "fusion": 0.971571277449611,
+      "flip": 0.9911227351029185
+    },
+    "r0.01_k4": {
+      "confidence": 0.944329559803009,
+      "consistency": 0.9992044309007009,
+      "minimum": 0.9987369750552574,
+      "fusion": 0.971766995351855,
+      "flip": 0.9911227351029185
+    },
+    "r0.01_k8": {
+      "confidence": 0.944329559803009,
+      "consistency": 0.9991160603371496,
+      "minimum": 0.9987369750552574,
+      "fusion": 0.9717228100700793,
+      "flip": 0.9911227351029185
+    },
+    "r0.03_k2": {
+      "confidence": 0.944329559803009,
+      "consistency": 0.9969155326172014,
+      "minimum": 0.9953967613378398,
+      "fusion": 0.9706225462101052,
+      "flip": 0.9911227351029185
+    },
+    "r0.03_k4": {
+      "confidence": 0.944329559803009,
+      "consistency": 0.9971380188066505,
+      "minimum": 0.9953967613378398,
+      "fusion": 0.9707337893048298,
+      "flip": 0.9911227351029185
+    },
+    "r0.03_k8": {
+      "confidence": 0.944329559803009,
+      "consistency": 0.9257694465208219,
+      "minimum": 0.43192446836671666,
+      "fusion": 0.9350495031619155,
+      "flip": 0.9911227351029185
+    },
+    "r0.06_k2": {
+      "confidence": 0.944329559803009,
+      "consistency": 0.9959315608360975,
+      "minimum": 0.9939321306925697,
+      "fusion": 0.9701305603195532,
+      "flip": 0.9911227351029185
+    },
+    "r0.06_k4": {
+      "confidence": 0.944329559803009,
+      "consistency": 0.7144264351577936,
+      "minimum": 0.43125267854891974,
+      "fusion": 0.8293779974804013,
+      "flip": 0.9911227351029185
+    },
+    "r0.06_k8": {
+      "confidence": 0.944329559803009,
+      "consistency": 0.7839380694098358,
+      "minimum": 0.43125267854891974,
+      "fusion": 0.8641338146064224,
+      "flip": 0.9911227351029185
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.3375626666666667,
+  "timing": {
+    "encoding": 0.3046180000528693,
+    "flip_encoding": 0.2733150999993086,
+    "original_decode": 0.007043100078590214,
+    "flip_decode": 0.005470000091008842,
+    "perturbation_batches_8": {
+      "0.01": 0.024106499971821904,
+      "0.03": 0.021340399980545044,
+      "0.06": 0.020585100050084293
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\german_shorthaired_64.jpg": "79b2a8d01b9f41c6447b70792ec2f576687de12336d0c5c45ae6c6f312221491",
+    "data\\prepared\\pets\\german_shorthaired_64_target.png": "3a3db61884599567649e8a747e89e902afa9153337a17d576eb8611ab33a09e1",
+    "data\\prepared\\pets\\german_shorthaired_64_valid.png": "513f3e85d31b439fa9b6b12328504c8a26c1babdf120c69278398bf39b8c96e5"
+  },
+  "mask_path": "results\\cases\\extra\\german_shorthaired_64_interior.npz",
+  "mask_hash": "72c99f0855a15a35b9f8ee367fc0d8abea31c0567f66965942800b5e7e0d975e"
+}

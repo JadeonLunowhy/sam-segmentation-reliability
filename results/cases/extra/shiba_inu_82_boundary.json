@@ -1,0 +1,116 @@
+{
+  "image_id": "shiba_inu_82",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "boundary",
+  "point": [
+    104.0,
+    19.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 5.656854249492381
+  },
+  "true_iou": 0.02467473179639352,
+  "confidence": 0.9662075042724609,
+  "stability": 0.9682746631899174,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9662075042724609,
+      "consistency": 0.9984566919328273,
+      "minimum": 0.99779638607316,
+      "fusion": 0.9823320981026441,
+      "flip": 0.9762419006479481
+    },
+    "r0.01_k4": {
+      "confidence": 0.9662075042724609,
+      "consistency": 0.9982349195585218,
+      "minimum": 0.997791519434629,
+      "fusion": 0.9822212119154914,
+      "flip": 0.9762419006479481
+    },
+    "r0.01_k8": {
+      "confidence": 0.9662075042724609,
+      "consistency": 0.998235041267344,
+      "minimum": 0.997791519434629,
+      "fusion": 0.9822212727699025,
+      "flip": 0.9762419006479481
+    },
+    "r0.03_k2": {
+      "confidence": 0.9662075042724609,
+      "consistency": 0.0,
+      "minimum": 0.0,
+      "fusion": 0.48310375213623047,
+      "flip": 0.9762419006479481
+    },
+    "r0.03_k4": {
+      "confidence": 0.9662075042724609,
+      "consistency": 0.24790564373897708,
+      "minimum": 0.0,
+      "fusion": 0.607056574005719,
+      "flip": 0.9762419006479481
+    },
+    "r0.03_k8": {
+      "confidence": 0.9662075042724609,
+      "consistency": 0.37268811783728123,
+      "minimum": 0.0,
+      "fusion": 0.6694478110548711,
+      "flip": 0.9762419006479481
+    },
+    "r0.06_k2": {
+      "confidence": 0.9662075042724609,
+      "consistency": 0.0,
+      "minimum": 0.0,
+      "fusion": 0.48310375213623047,
+      "flip": 0.9762419006479481
+    },
+    "r0.06_k4": {
+      "confidence": 0.9662075042724609,
+      "consistency": 0.2381898454746137,
+      "minimum": 0.0,
+      "fusion": 0.6021986748735373,
+      "flip": 0.9762419006479481
+    },
+    "r0.06_k8": {
+      "confidence": 0.9662075042724609,
+      "consistency": 0.242174378400169,
+      "minimum": 0.0,
+      "fusion": 0.604190941336315,
+      "flip": 0.9762419006479481
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.125,
+    "r0.03_k2": 1.0,
+    "r0.03_k4": 0.75,
+    "r0.03_k8": 0.75,
+    "r0.06_k2": 1.0,
+    "r0.06_k4": 0.75,
+    "r0.06_k8": 0.875
+  },
+  "object_fraction": 0.23365333333333332,
+  "timing": {
+    "encoding": 0.2646077999379486,
+    "flip_encoding": 0.25087499991059303,
+    "original_decode": 0.005895299953408539,
+    "flip_decode": 0.006686899927444756,
+    "perturbation_batches_8": {
+      "0.01": 0.019736099988222122,
+      "0.03": 0.020047300029546022,
+      "0.06": 0.01891859993338585
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\shiba_inu_82.jpg": "622d8d39e88debc215e92a7754cc6c1c3edc8f516c7f076ec6c3660e2ed80226",
+    "data\\prepared\\pets\\shiba_inu_82_target.png": "cbb8262372f9153068364fdff2d3848427695e7537121c8607dcc039a7f42726",
+    "data\\prepared\\pets\\shiba_inu_82_valid.png": "710e00a916f6ff1790aa08dd5d8c61c159e08880318e9618f6964308b5b42c5b"
+  },
+  "mask_path": "results\\cases\\extra\\shiba_inu_82_boundary.npz",
+  "mask_hash": "722c02c3c38d5b01a72c78fdce55d526f6b5c8ed7baf6f668e58118b626f42c7"
+}

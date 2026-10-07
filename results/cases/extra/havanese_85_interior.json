@@ -1,0 +1,116 @@
+{
+  "image_id": "havanese_85",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "interior",
+  "point": [
+    310.0,
+    140.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 74.43117626371358
+  },
+  "true_iou": 0.9972659564438578,
+  "confidence": 0.9553218483924866,
+  "stability": 0.8716188194092438,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9553218483924866,
+      "consistency": 0.971445765031021,
+      "minimum": 0.9491310600336363,
+      "fusion": 0.9633838067117537,
+      "flip": 0.9545531956304892
+    },
+    "r0.01_k4": {
+      "confidence": 0.9553218483924866,
+      "consistency": 0.7333850229818825,
+      "minimum": 0.01750237671550106,
+      "fusion": 0.8443534356871845,
+      "flip": 0.9545531956304892
+    },
+    "r0.01_k8": {
+      "confidence": 0.9553218483924866,
+      "consistency": 0.7387367015806483,
+      "minimum": 0.01701484533066816,
+      "fusion": 0.8470292749865674,
+      "flip": 0.9545531956304892
+    },
+    "r0.03_k2": {
+      "confidence": 0.9553218483924866,
+      "consistency": 0.9923923611864273,
+      "minimum": 0.9920567444798017,
+      "fusion": 0.9738571047894569,
+      "flip": 0.9545531956304892
+    },
+    "r0.03_k4": {
+      "confidence": 0.9553218483924866,
+      "consistency": 0.6782507366938695,
+      "minimum": 0.01630792482266046,
+      "fusion": 0.816786292543178,
+      "flip": 0.9545531956304892
+    },
+    "r0.03_k8": {
+      "confidence": 0.9553218483924866,
+      "consistency": 0.7096161976274746,
+      "minimum": 0.01630792482266046,
+      "fusion": 0.8324690230099806,
+      "flip": 0.9545531956304892
+    },
+    "r0.06_k2": {
+      "confidence": 0.9553218483924866,
+      "consistency": 0.9866221823385377,
+      "minimum": 0.9834177245566461,
+      "fusion": 0.9709720153655121,
+      "flip": 0.9545531956304892
+    },
+    "r0.06_k4": {
+      "confidence": 0.9553218483924866,
+      "consistency": 0.9702406893336301,
+      "minimum": 0.9191953172307071,
+      "fusion": 0.9627812688630584,
+      "flip": 0.9545531956304892
+    },
+    "r0.06_k8": {
+      "confidence": 0.9553218483924866,
+      "consistency": 0.8233943281690366,
+      "minimum": 0.01689296248445994,
+      "fusion": 0.8893580882807616,
+      "flip": 0.9545531956304892
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.19169277108433735,
+  "timing": {
+    "encoding": 0.2690013999817893,
+    "flip_encoding": 0.26831710000988096,
+    "original_decode": 0.005861000041477382,
+    "flip_decode": 0.00521799991838634,
+    "perturbation_batches_8": {
+      "0.01": 0.020132299978286028,
+      "0.03": 0.019333799951709807,
+      "0.06": 0.02018270001281053
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\havanese_85.jpg": "6037bb911818e88e9fb0c87565e302a6a7953b3e0a9426eddb48e67855b76395",
+    "data\\prepared\\pets\\havanese_85_target.png": "cc26678740f4410fa783a142d68920aba088bca5b0141e341c6d16bcb77bc4d8",
+    "data\\prepared\\pets\\havanese_85_valid.png": "0f7f886babc0a8b16f27adc551c2dcd02452bc64fbeddaf5f2635b8e310c403a"
+  },
+  "mask_path": "results\\cases\\extra\\havanese_85_interior.npz",
+  "mask_hash": "537a28d818ff0385a464a2138d73264666447de07a1e2bf935b8ec381efb6599"
+}

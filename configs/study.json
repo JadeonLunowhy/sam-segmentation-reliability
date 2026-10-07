@@ -1,0 +1,14 @@
+{
+  "seed": 20261003,
+  "validation_images": 45,
+  "extra_per_breed": 2,
+  "model": "vit_b",
+  "checkpoint": "models/sam_vit_b_01ec64.pth",
+  "radii": [0.01, 0.03, 0.06],
+  "budgets": [2, 4, 8],
+  "regimes": ["interior", "boundary"],
+  "bootstrap_draws": 2000,
+  "primary_failure_threshold": 0.5,
+  "secondary_failure_threshold": 0.75,
+  "device": "auto"
+}

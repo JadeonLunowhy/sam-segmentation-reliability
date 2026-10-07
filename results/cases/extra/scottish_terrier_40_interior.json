@@ -1,0 +1,116 @@
+{
+  "image_id": "scottish_terrier_40",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "interior",
+  "point": [
+    250.0,
+    359.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 115.96551211459379
+  },
+  "true_iou": 0.9963980090813832,
+  "confidence": 0.9888858795166016,
+  "stability": 0.948696993627298,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9888858795166016,
+      "consistency": 0.9987208496702362,
+      "minimum": 0.9983601795369147,
+      "fusion": 0.9938033645934189,
+      "flip": 0.9921507503919959
+    },
+    "r0.01_k4": {
+      "confidence": 0.9888858795166016,
+      "consistency": 0.9985029498628123,
+      "minimum": 0.9974976569821931,
+      "fusion": 0.9936944146897069,
+      "flip": 0.9921507503919959
+    },
+    "r0.01_k8": {
+      "confidence": 0.9888858795166016,
+      "consistency": 0.9985931636365446,
+      "minimum": 0.9972170164917541,
+      "fusion": 0.9937395215765731,
+      "flip": 0.9921507503919959
+    },
+    "r0.03_k2": {
+      "confidence": 0.9888858795166016,
+      "consistency": 0.9914564882544961,
+      "minimum": 0.9875124219526372,
+      "fusion": 0.9901711838855488,
+      "flip": 0.9921507503919959
+    },
+    "r0.03_k4": {
+      "confidence": 0.9888858795166016,
+      "consistency": 0.9910292625919803,
+      "minimum": 0.9825433135828395,
+      "fusion": 0.9899575710542909,
+      "flip": 0.9921507503919959
+    },
+    "r0.03_k8": {
+      "confidence": 0.9888858795166016,
+      "consistency": 0.9910019415753262,
+      "minimum": 0.9809021104246163,
+      "fusion": 0.9899439105459639,
+      "flip": 0.9921507503919959
+    },
+    "r0.06_k2": {
+      "confidence": 0.9888858795166016,
+      "consistency": 0.9837854518574515,
+      "minimum": 0.9788299268704294,
+      "fusion": 0.9863356656870266,
+      "flip": 0.9921507503919959
+    },
+    "r0.06_k4": {
+      "confidence": 0.9888858795166016,
+      "consistency": 0.9881369773868172,
+      "minimum": 0.9788299268704294,
+      "fusion": 0.9885114284517094,
+      "flip": 0.9921507503919959
+    },
+    "r0.06_k8": {
+      "confidence": 0.9888858795166016,
+      "consistency": 0.9885028603860859,
+      "minimum": 0.9788299268704294,
+      "fusion": 0.9886943699513437,
+      "flip": 0.9921507503919959
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.49447322970639035,
+  "timing": {
+    "encoding": 0.2853719999548048,
+    "flip_encoding": 0.29846800002269447,
+    "original_decode": 0.006203799974173307,
+    "flip_decode": 0.006823999923653901,
+    "perturbation_batches_8": {
+      "0.01": 0.024271199945360422,
+      "0.03": 0.02335160004440695,
+      "0.06": 0.022806999972090125
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\scottish_terrier_40.jpg": "ef44f63f0a9c5c3266e82a0c0f13af6e63db4ee52437f515101ccd62e0e4e68b",
+    "data\\prepared\\pets\\scottish_terrier_40_target.png": "e64df694ab50f2c9363c0c8ae2307a4511bb701db13f15328bb8708c47e7d7e4",
+    "data\\prepared\\pets\\scottish_terrier_40_valid.png": "9dc58beaee93c3e607cf3ff9669b146ae743d7c1aa856f5403e97e6b51d0d1a0"
+  },
+  "mask_path": "results\\cases\\extra\\scottish_terrier_40_interior.npz",
+  "mask_hash": "e0791d5fb254b4ed7ddfd714f2f4a398210255e51e85dc49803d6d977b7d67fb"
+}

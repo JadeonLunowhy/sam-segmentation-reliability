@@ -1,0 +1,116 @@
+{
+  "image_id": "staffordshire_bull_terrier_46",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "interior",
+  "point": [
+    103.0,
+    190.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 103.07764064044152
+  },
+  "true_iou": 0.9951299950530423,
+  "confidence": 0.9886342883110046,
+  "stability": 0.9556730579165843,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9886342883110046,
+      "consistency": 0.9992558085212355,
+      "minimum": 0.998631478003756,
+      "fusion": 0.9939450484161201,
+      "flip": 0.9972575417601596
+    },
+    "r0.01_k4": {
+      "confidence": 0.9886342883110046,
+      "consistency": 0.9995255178095677,
+      "minimum": 0.998631478003756,
+      "fusion": 0.9940799030602862,
+      "flip": 0.9972575417601596
+    },
+    "r0.01_k8": {
+      "confidence": 0.9886342883110046,
+      "consistency": 0.9995005465885682,
+      "minimum": 0.998631478003756,
+      "fusion": 0.9940674174497864,
+      "flip": 0.9972575417601596
+    },
+    "r0.03_k2": {
+      "confidence": 0.9886342883110046,
+      "consistency": 0.9991709516978164,
+      "minimum": 0.9988112838134814,
+      "fusion": 0.9939026200044105,
+      "flip": 0.9972575417601596
+    },
+    "r0.03_k4": {
+      "confidence": 0.9886342883110046,
+      "consistency": 0.999408197945117,
+      "minimum": 0.9988112838134814,
+      "fusion": 0.9940212431280608,
+      "flip": 0.9972575417601596
+    },
+    "r0.03_k8": {
+      "confidence": 0.9886342883110046,
+      "consistency": 0.9989886923295203,
+      "minimum": 0.9961044020257109,
+      "fusion": 0.9938114903202624,
+      "flip": 0.9972575417601596
+    },
+    "r0.06_k2": {
+      "confidence": 0.9886342883110046,
+      "consistency": 0.9992759549174575,
+      "minimum": 0.9991909385113269,
+      "fusion": 0.993955121614231,
+      "flip": 0.9972575417601596
+    },
+    "r0.06_k4": {
+      "confidence": 0.9886342883110046,
+      "consistency": 0.9992685315236434,
+      "minimum": 0.9990614828570858,
+      "fusion": 0.993951409917324,
+      "flip": 0.9972575417601596
+    },
+    "r0.06_k8": {
+      "confidence": 0.9886342883110046,
+      "consistency": 0.9991887129881067,
+      "minimum": 0.9986926800059878,
+      "fusion": 0.9939115006495557,
+      "flip": 0.9972575417601596
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.5447005988023952,
+  "timing": {
+    "encoding": 0.271438300027512,
+    "flip_encoding": 0.26079690002370626,
+    "original_decode": 0.006246200064197183,
+    "flip_decode": 0.00629100005608052,
+    "perturbation_batches_8": {
+      "0.01": 0.021518100053071976,
+      "0.03": 0.020371100050397217,
+      "0.06": 0.02024029998574406
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\staffordshire_bull_terrier_46.jpg": "4e79450a2858f44f27330bbc71d8b7c9bd78d5fa09a0f162e59a8d7520032771",
+    "data\\prepared\\pets\\staffordshire_bull_terrier_46_target.png": "057b61efe0d3470f7a0e9ebeeadab7e4896b44038200d41a044975aafe54e802",
+    "data\\prepared\\pets\\staffordshire_bull_terrier_46_valid.png": "531293d72cdfbed58b8bd7f8322dec316e86d42a800d5f9be2417c01de472c8a"
+  },
+  "mask_path": "results\\cases\\extra\\staffordshire_bull_terrier_46_interior.npz",
+  "mask_hash": "6c7b774145521049f03a54a037c13ac430bb2535f7809b50978ab34c71fe3f76"
+}

@@ -1,0 +1,31 @@
+{
+  "timing_source": "results/budget_timing.json",
+  "evaluation_source": "results/test.jsonl",
+  "points": [
+    {
+      "method": "Confidence",
+      "additional_seconds": 0,
+      "test_aurc": 0.42965366418462897
+    },
+    {
+      "method": "Fusion K=2",
+      "additional_seconds": 0.007670499966479838,
+      "test_aurc": 0.35619814291109764
+    },
+    {
+      "method": "Fusion K=4",
+      "additional_seconds": 0.01077862000092864,
+      "test_aurc": 0.3373397335041671
+    },
+    {
+      "method": "Fusion K=8",
+      "additional_seconds": 0.01982976000290364,
+      "test_aurc": 0.332600118371588
+    },
+    {
+      "method": "Flip",
+      "additional_seconds": 0.27697440003976226,
+      "test_aurc": 0.3899521867444306
+    }
+  ]
+}

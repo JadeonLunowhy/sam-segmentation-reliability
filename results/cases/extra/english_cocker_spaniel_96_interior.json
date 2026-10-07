@@ -1,0 +1,116 @@
+{
+  "image_id": "english_cocker_spaniel_96",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "interior",
+  "point": [
+    376.0,
+    257.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 68.94200461257273
+  },
+  "true_iou": 0.9967322012106926,
+  "confidence": 0.9507121443748474,
+  "stability": 0.9627204136995592,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9507121443748474,
+      "consistency": 0.9941079571432024,
+      "minimum": 0.9890386031801048,
+      "fusion": 0.972410050759025,
+      "flip": 0.9890020191605448
+    },
+    "r0.01_k4": {
+      "confidence": 0.9507121443748474,
+      "consistency": 0.9968373698774209,
+      "minimum": 0.9890386031801048,
+      "fusion": 0.9737747571261341,
+      "flip": 0.9890020191605448
+    },
+    "r0.01_k8": {
+      "confidence": 0.9507121443748474,
+      "consistency": 0.9976578862363252,
+      "minimum": 0.9890386031801048,
+      "fusion": 0.9741850153055863,
+      "flip": 0.9890020191605448
+    },
+    "r0.03_k2": {
+      "confidence": 0.9507121443748474,
+      "consistency": 0.9956608974429484,
+      "minimum": 0.9928797980451809,
+      "fusion": 0.9731865209088979,
+      "flip": 0.9890020191605448
+    },
+    "r0.03_k4": {
+      "confidence": 0.9507121443748474,
+      "consistency": 0.997115946330598,
+      "minimum": 0.9928797980451809,
+      "fusion": 0.9739140453527226,
+      "flip": 0.9890020191605448
+    },
+    "r0.03_k8": {
+      "confidence": 0.9507121443748474,
+      "consistency": 0.9967978400212409,
+      "minimum": 0.9928797980451809,
+      "fusion": 0.9737549921980442,
+      "flip": 0.9890020191605448
+    },
+    "r0.06_k2": {
+      "confidence": 0.9507121443748474,
+      "consistency": 0.9958443318432759,
+      "minimum": 0.9947351386341569,
+      "fusion": 0.9732782381090617,
+      "flip": 0.9890020191605448
+    },
+    "r0.06_k4": {
+      "confidence": 0.9507121443748474,
+      "consistency": 0.9949101921315728,
+      "minimum": 0.992977013722829,
+      "fusion": 0.9728111682532101,
+      "flip": 0.9890020191605448
+    },
+    "r0.06_k8": {
+      "confidence": 0.9507121443748474,
+      "consistency": 0.9933427767695783,
+      "minimum": 0.979617034180999,
+      "fusion": 0.9720274605722128,
+      "flip": 0.9890020191605448
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.17778095238095237,
+  "timing": {
+    "encoding": 0.2534099000040442,
+    "flip_encoding": 0.2746462000068277,
+    "original_decode": 0.005445100017823279,
+    "flip_decode": 0.005713899969123304,
+    "perturbation_batches_8": {
+      "0.01": 0.020952199934981763,
+      "0.03": 0.02007860003504902,
+      "0.06": 0.019880699925124645
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\english_cocker_spaniel_96.jpg": "6e85ec59a339c65c53f274a8ee3bbb1e2ebb3cfe05fb68e958abf9eab9445af3",
+    "data\\prepared\\pets\\english_cocker_spaniel_96_target.png": "24616d7feb2eebd3f56d8b512fb820715ee043c8c5df21313a44ee4deec61697",
+    "data\\prepared\\pets\\english_cocker_spaniel_96_valid.png": "79b60224a95370517cc78d5821c5d8dcb1026d698da8c39eefb9f70415a92de8"
+  },
+  "mask_path": "results\\cases\\extra\\english_cocker_spaniel_96_interior.npz",
+  "mask_hash": "aa6dd7c49cea5853aa865fa8b8cabf8b9b2e11ac6c528c5df4146c33dd836832"
+}

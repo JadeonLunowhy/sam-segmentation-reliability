@@ -1,0 +1,116 @@
+{
+  "image_id": "great_pyrenees_24",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "boundary",
+  "point": [
+    118.0,
+    148.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 6.0
+  },
+  "true_iou": 0.9975772765246449,
+  "confidence": 0.9917616844177246,
+  "stability": 0.9418058112016828,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9917616844177246,
+      "consistency": 0.98597467481022,
+      "minimum": 0.9787054250464763,
+      "fusion": 0.9888681796139723,
+      "flip": 0.9816997829353815
+    },
+    "r0.01_k4": {
+      "confidence": 0.9917616844177246,
+      "consistency": 0.9904640872035748,
+      "minimum": 0.9787054250464763,
+      "fusion": 0.9911128858106497,
+      "flip": 0.9816997829353815
+    },
+    "r0.01_k8": {
+      "confidence": 0.9917616844177246,
+      "consistency": 0.9859033201733522,
+      "minimum": 0.9759985125838785,
+      "fusion": 0.9888325022955384,
+      "flip": 0.9816997829353815
+    },
+    "r0.03_k2": {
+      "confidence": 0.9917616844177246,
+      "consistency": 0.49248482594214416,
+      "minimum": 0.0,
+      "fusion": 0.7421232551799344,
+      "flip": 0.9816997829353815
+    },
+    "r0.03_k4": {
+      "confidence": 0.9917616844177246,
+      "consistency": 0.7398305753135945,
+      "minimum": 0.0,
+      "fusion": 0.8657961298656596,
+      "flip": 0.9816997829353815
+    },
+    "r0.03_k8": {
+      "confidence": 0.9917616844177246,
+      "consistency": 0.8633844207154031,
+      "minimum": 0.0,
+      "fusion": 0.9275730525665639,
+      "flip": 0.9816997829353815
+    },
+    "r0.06_k2": {
+      "confidence": 0.9917616844177246,
+      "consistency": 0.003229406195049371,
+      "minimum": 0.0,
+      "fusion": 0.497495545306387,
+      "flip": 0.9816997829353815
+    },
+    "r0.06_k4": {
+      "confidence": 0.9917616844177246,
+      "consistency": 0.2500636559481752,
+      "minimum": 0.0,
+      "fusion": 0.6209126701829499,
+      "flip": 0.9816997829353815
+    },
+    "r0.06_k8": {
+      "confidence": 0.9917616844177246,
+      "consistency": 0.3721450292862667,
+      "minimum": 0.0,
+      "fusion": 0.6819533568519957,
+      "flip": 0.9816997829353815
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.5,
+    "r0.01_k4": 0.25,
+    "r0.01_k8": 0.125,
+    "r0.03_k2": 0.5,
+    "r0.03_k4": 0.5,
+    "r0.03_k8": 0.5,
+    "r0.06_k2": 0.5,
+    "r0.06_k4": 0.5,
+    "r0.06_k8": 0.5
+  },
+  "object_fraction": 0.232992700729927,
+  "timing": {
+    "encoding": 0.2791332999477163,
+    "flip_encoding": 0.25945349992252886,
+    "original_decode": 0.005717899999581277,
+    "flip_decode": 0.005425299983471632,
+    "perturbation_batches_8": {
+      "0.01": 0.0218923999927938,
+      "0.03": 0.020900300005450845,
+      "0.06": 0.019311899901367724
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\great_pyrenees_24.jpg": "de627ea3f7c49d9861a87139cc58ff73ecfdeb1436a66352adc6708390ff579b",
+    "data\\prepared\\pets\\great_pyrenees_24_target.png": "6084b698c72fdbaf8d4303d424a9a882e0bef910fb319c8f3672c2e92063e62d",
+    "data\\prepared\\pets\\great_pyrenees_24_valid.png": "c251656d4ccbd98d2c5f620153f113f73e76f80215055686a75325322c32d7c9"
+  },
+  "mask_path": "results\\cases\\extra\\great_pyrenees_24_boundary.npz",
+  "mask_hash": "5503f8c609b8b6bb2dc08e92a7f1c268506a97812f746868f09857ada01d4535"
+}

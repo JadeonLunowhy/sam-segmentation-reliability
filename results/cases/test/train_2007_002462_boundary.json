@@ -1,0 +1,116 @@
+{
+  "image_id": "train_2007_002462",
+  "dataset": "iseg",
+  "split": "test",
+  "regime": "boundary",
+  "point": [
+    348.0,
+    127.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 7.211102550927978
+  },
+  "true_iou": 0.02013383075738734,
+  "confidence": 0.9573500752449036,
+  "stability": 0.9838709677419355,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9573500752449036,
+      "consistency": 0.4976851851851852,
+      "minimum": 0.0,
+      "fusion": 0.7275176302150443,
+      "flip": 0.9771689497716894
+    },
+    "r0.01_k4": {
+      "confidence": 0.9573500752449036,
+      "consistency": 0.630755034988906,
+      "minimum": 0.0,
+      "fusion": 0.7940525551169048,
+      "flip": 0.9771689497716894
+    },
+    "r0.01_k8": {
+      "confidence": 0.9573500752449036,
+      "consistency": 0.5639340994805961,
+      "minimum": 0.0,
+      "fusion": 0.7606420873627499,
+      "flip": 0.9771689497716894
+    },
+    "r0.03_k2": {
+      "confidence": 0.9573500752449036,
+      "consistency": 0.0,
+      "minimum": 0.0,
+      "fusion": 0.4786750376224518,
+      "flip": 0.9771689497716894
+    },
+    "r0.03_k4": {
+      "confidence": 0.9573500752449036,
+      "consistency": 0.12009237875288684,
+      "minimum": 0.0,
+      "fusion": 0.5387212269988952,
+      "flip": 0.9771689497716894
+    },
+    "r0.03_k8": {
+      "confidence": 0.9573500752449036,
+      "consistency": 0.06004618937644342,
+      "minimum": 0.0,
+      "fusion": 0.5086981323106735,
+      "flip": 0.9771689497716894
+    },
+    "r0.06_k2": {
+      "confidence": 0.9573500752449036,
+      "consistency": 0.0,
+      "minimum": 0.0,
+      "fusion": 0.4786750376224518,
+      "flip": 0.9771689497716894
+    },
+    "r0.06_k4": {
+      "confidence": 0.9573500752449036,
+      "consistency": 0.0,
+      "minimum": 0.0,
+      "fusion": 0.4786750376224518,
+      "flip": 0.9771689497716894
+    },
+    "r0.06_k8": {
+      "confidence": 0.9573500752449036,
+      "consistency": 0.0,
+      "minimum": 0.0,
+      "fusion": 0.4786750376224518,
+      "flip": 0.9771689497716894
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.25,
+    "r0.03_k8": 0.375,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.5,
+    "r0.06_k8": 0.75
+  },
+  "object_fraction": 0.09005333333333333,
+  "timing": {
+    "encoding": 0.25629069993738085,
+    "flip_encoding": 0.26134329999331385,
+    "original_decode": 0.005700299981981516,
+    "flip_decode": 0.00529690005350858,
+    "perturbation_batches_8": {
+      "0.01": 0.019761099945753813,
+      "0.03": 0.01892469997983426,
+      "0.06": 0.01952760003041476
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\iseg\\images\\train_2007_002462.jpg": "14c29254e42b50e481391ec4059362cb553f49b2ace02254e30b04472b3664cf",
+    "data\\prepared\\iseg\\train_2007_002462_target.png": "e1008cd5ca70f29002dfaba3aec0d2853a04d0d5984bcd768d364dcf2a5b5f2d",
+    "data\\prepared\\iseg\\train_2007_002462_valid.png": "c48d1c359b2609cb0e656297a000318099b3325a7d8d20b2a4995d4757d81d81"
+  },
+  "mask_path": "results\\cases\\test\\train_2007_002462_boundary.npz",
+  "mask_hash": "d5d3751b222cc0cd15b2c8c055a6f85f0c1f90e6326da0f4cb71abc312519031"
+}

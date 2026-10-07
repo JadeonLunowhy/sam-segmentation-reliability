@@ -1,0 +1,12 @@
+{
+  "device": "cuda",
+  "images": 45,
+  "cases": 90,
+  "frozen_parameters": true,
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "encoder_calls_this_run": 90,
+  "decoder_calls_this_run": 2340,
+  "torch_version": "2.8.0+cu128",
+  "peak_cuda_allocated_bytes": 2905197056
+}

@@ -1,0 +1,162 @@
+{
+  "test": {
+    "consistency_aurc": {
+      "estimate": -0.10106597997829886,
+      "ci95": [
+        -0.15170647095096815,
+        -0.05471067943979884
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "consistency",
+      "second": "confidence",
+      "metric": "aurc"
+    },
+    "consistency_auroc": {
+      "estimate": 0.18000896458987015,
+      "ci95": [
+        0.10695908514364554,
+        0.2547561019937664
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "consistency",
+      "second": "confidence",
+      "metric": "auroc"
+    },
+    "fusion_aurc": {
+      "estimate": -0.09705354581304099,
+      "ci95": [
+        -0.14492890741122427,
+        -0.052812188347342554
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "fusion",
+      "second": "confidence",
+      "metric": "aurc"
+    },
+    "fusion_auroc": {
+      "estimate": 0.17095472882115648,
+      "ci95": [
+        0.10453892221246183,
+        0.24011796803093724
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "fusion",
+      "second": "confidence",
+      "metric": "auroc"
+    },
+    "flip_aurc": {
+      "estimate": -0.03970147744019836,
+      "ci95": [
+        -0.08548756493149791,
+        0.0031145682209805818
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "flip",
+      "second": "confidence",
+      "metric": "aurc"
+    },
+    "flip_auroc": {
+      "estimate": 0.035499775885253215,
+      "ci95": [
+        -0.039334924701133436,
+        0.11144459282117944
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "flip",
+      "second": "confidence",
+      "metric": "auroc"
+    }
+  },
+  "extra": {
+    "consistency_aurc": {
+      "estimate": -0.051387763740562545,
+      "ci95": [
+        -0.08439740019206364,
+        -0.02385622902065699
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "consistency",
+      "second": "confidence",
+      "metric": "aurc"
+    },
+    "consistency_auroc": {
+      "estimate": 0.2604878048780487,
+      "ci95": [
+        0.1537307836520435,
+        0.3692316508859298
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "consistency",
+      "second": "confidence",
+      "metric": "auroc"
+    },
+    "fusion_aurc": {
+      "estimate": -0.05117249239817684,
+      "ci95": [
+        -0.08402726036779909,
+        -0.02396930803924335
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "fusion",
+      "second": "confidence",
+      "metric": "aurc"
+    },
+    "fusion_auroc": {
+      "estimate": 0.2552845528455284,
+      "ci95": [
+        0.15340382597136268,
+        0.3606859544317864
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "fusion",
+      "second": "confidence",
+      "metric": "auroc"
+    },
+    "flip_aurc": {
+      "estimate": -0.006206477488224935,
+      "ci95": [
+        -0.03282742765791949,
+        0.02173680182084762
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "flip",
+      "second": "confidence",
+      "metric": "aurc"
+    },
+    "flip_auroc": {
+      "estimate": -0.03837398373983747,
+      "ci95": [
+        -0.15861325928009,
+        0.081015851873185
+      ],
+      "valid_draws": 2000,
+      "requested_draws": 2000,
+      "unit": "image",
+      "first": "flip",
+      "second": "confidence",
+      "metric": "auroc"
+    }
+  }
+}

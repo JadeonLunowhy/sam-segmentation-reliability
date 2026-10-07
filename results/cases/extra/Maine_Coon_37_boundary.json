@@ -1,0 +1,116 @@
+{
+  "image_id": "Maine_Coon_37",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "boundary",
+  "point": [
+    182.0,
+    235.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 1.0
+  },
+  "true_iou": 0.99974419879408,
+  "confidence": 1.000245213508606,
+  "stability": 0.9606923802783676,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 1.000245213508606,
+      "consistency": 0.9990921254649182,
+      "minimum": 0.9989644459785986,
+      "fusion": 0.999546062732459,
+      "flip": 0.9914375643301461
+    },
+    "r0.01_k4": {
+      "confidence": 1.000245213508606,
+      "consistency": 0.9991258914711726,
+      "minimum": 0.9989644459785986,
+      "fusion": 0.9995629457355864,
+      "flip": 0.9914375643301461
+    },
+    "r0.01_k8": {
+      "confidence": 1.000245213508606,
+      "consistency": 0.9991390359543029,
+      "minimum": 0.9988296547481507,
+      "fusion": 0.9995695179771514,
+      "flip": 0.9914375643301461
+    },
+    "r0.03_k2": {
+      "confidence": 1.000245213508606,
+      "consistency": 0.9971439821089478,
+      "minimum": 0.996207465147654,
+      "fusion": 0.9985719910544739,
+      "flip": 0.9914375643301461
+    },
+    "r0.03_k4": {
+      "confidence": 1.000245213508606,
+      "consistency": 0.8042880678870775,
+      "minimum": 0.2251906216980324,
+      "fusion": 0.9021440339435387,
+      "flip": 0.9914375643301461
+    },
+    "r0.03_k8": {
+      "confidence": 1.000245213508606,
+      "consistency": 0.7764279050959076,
+      "minimum": 0.0,
+      "fusion": 0.8882139525479538,
+      "flip": 0.9914375643301461
+    },
+    "r0.06_k2": {
+      "confidence": 1.000245213508606,
+      "consistency": 0.4982690924349598,
+      "minimum": 0.0,
+      "fusion": 0.7491345462174799,
+      "flip": 0.9914375643301461
+    },
+    "r0.06_k4": {
+      "confidence": 1.000245213508606,
+      "consistency": 0.498121504240022,
+      "minimum": 0.0,
+      "fusion": 0.749060752120011,
+      "flip": 0.9914375643301461
+    },
+    "r0.06_k8": {
+      "confidence": 1.000245213508606,
+      "consistency": 0.6224452048539517,
+      "minimum": 0.0,
+      "fusion": 0.8112226024269759,
+      "flip": 0.9914375643301461
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.5,
+    "r0.01_k4": 0.5,
+    "r0.01_k8": 0.375,
+    "r0.03_k2": 0.5,
+    "r0.03_k4": 0.5,
+    "r0.03_k8": 0.5,
+    "r0.06_k2": 0.5,
+    "r0.06_k4": 0.5,
+    "r0.06_k8": 0.625
+  },
+  "object_fraction": 0.3286246246246246,
+  "timing": {
+    "encoding": 0.2715308000333607,
+    "flip_encoding": 0.25719769997522235,
+    "original_decode": 0.006039300002157688,
+    "flip_decode": 0.0061913999961689115,
+    "perturbation_batches_8": {
+      "0.01": 0.019287200062535703,
+      "0.03": 0.019840999972075224,
+      "0.06": 0.019323499989695847
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\Maine_Coon_37.jpg": "cca6793e01396b465ccde7053ee92c62c8f246a2454f7e912d78e57ef5222e8d",
+    "data\\prepared\\pets\\Maine_Coon_37_target.png": "1a1d97ff840fb8416088086c4534db54148cff548c1d637b59d218b53b518e60",
+    "data\\prepared\\pets\\Maine_Coon_37_valid.png": "0dc2d23c76a65a21b7bd3cc4fb56b9a98203d7237704a2619dcdb1ca46859a5c"
+  },
+  "mask_path": "results\\cases\\extra\\Maine_Coon_37_boundary.npz",
+  "mask_hash": "d173076d036d6f8187f1e740282c14f08432660cb58c19e8c623e3f2c5d6f5f4"
+}

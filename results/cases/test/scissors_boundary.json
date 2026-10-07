@@ -1,0 +1,116 @@
+{
+  "image_id": "scissors",
+  "dataset": "iseg",
+  "split": "test",
+  "regime": "boundary",
+  "point": [
+    419.0,
+    130.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 1.0
+  },
+  "true_iou": 0.36875317761760923,
+  "confidence": 0.9369395971298218,
+  "stability": 0.9484450483091788,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9369395971298218,
+      "consistency": 0.4916415138147202,
+      "minimum": 0.0,
+      "fusion": 0.7142905554722709,
+      "flip": 0.9734485952454461
+    },
+    "r0.01_k4": {
+      "confidence": 0.9369395971298218,
+      "consistency": 0.49170051549603233,
+      "minimum": 0.0,
+      "fusion": 0.714320056312927,
+      "flip": 0.9734485952454461
+    },
+    "r0.01_k8": {
+      "confidence": 0.9369395971298218,
+      "consistency": 0.491719007835936,
+      "minimum": 0.0,
+      "fusion": 0.7143293024828788,
+      "flip": 0.9734485952454461
+    },
+    "r0.03_k2": {
+      "confidence": 0.9369395971298218,
+      "consistency": 0.49010054137664344,
+      "minimum": 0.0,
+      "fusion": 0.7135200692532326,
+      "flip": 0.9734485952454461
+    },
+    "r0.03_k4": {
+      "confidence": 0.9369395971298218,
+      "consistency": 0.49100427409547676,
+      "minimum": 0.0,
+      "fusion": 0.7139719356126493,
+      "flip": 0.9734485952454461
+    },
+    "r0.03_k8": {
+      "confidence": 0.9369395971298218,
+      "consistency": 0.4918545480929258,
+      "minimum": 0.0,
+      "fusion": 0.7143970726113738,
+      "flip": 0.9734485952454461
+    },
+    "r0.06_k2": {
+      "confidence": 0.9369395971298218,
+      "consistency": 0.4917253112674967,
+      "minimum": 0.0,
+      "fusion": 0.7143324541986592,
+      "flip": 0.9734485952454461
+    },
+    "r0.06_k4": {
+      "confidence": 0.9369395971298218,
+      "consistency": 0.24586265563374834,
+      "minimum": 0.0,
+      "fusion": 0.5914011263817851,
+      "flip": 0.9734485952454461
+    },
+    "r0.06_k8": {
+      "confidence": 0.9369395971298218,
+      "consistency": 0.24572305259604665,
+      "minimum": 0.0,
+      "fusion": 0.5913313248629342,
+      "flip": 0.9734485952454461
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.5,
+    "r0.01_k4": 0.5,
+    "r0.01_k8": 0.5,
+    "r0.03_k2": 0.5,
+    "r0.03_k4": 0.5,
+    "r0.03_k8": 0.5,
+    "r0.06_k2": 0.5,
+    "r0.06_k4": 0.75,
+    "r0.06_k8": 0.75
+  },
+  "object_fraction": 0.10873046875,
+  "timing": {
+    "encoding": 0.26084449992049485,
+    "flip_encoding": 0.26877899991814047,
+    "original_decode": 0.005562699981965125,
+    "flip_decode": 0.005515299970284104,
+    "perturbation_batches_8": {
+      "0.01": 0.01981930003967136,
+      "0.03": 0.01994550006929785,
+      "0.06": 0.019597999984398484
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\iseg\\images\\scissors.jpg": "40297756fc5e37a752a5cb0fe205058d8c5626e7a7310d0114f088da4b728c3b",
+    "data\\prepared\\iseg\\scissors_target.png": "8c49081454e4656ded14e22a1938b5d4aabb8c4347002a743a0b2eef0342419f",
+    "data\\prepared\\iseg\\scissors_valid.png": "0cd45746410372e8b7d437288a4979b0dbf9edff5316cffd8a2ccb12c2adac36"
+  },
+  "mask_path": "results\\cases\\test\\scissors_boundary.npz",
+  "mask_hash": "ba7795459dee9a389736a4e61949aef7cd0542fab8fe46ed765b78445a1eebd9"
+}

@@ -1,0 +1,23 @@
+{
+  "validation": {
+    "images": 45,
+    "cases": 90,
+    "all_mask_hashes_verified": true,
+    "all_iou_recomputed": true,
+    "frozen_parameters": true
+  },
+  "test": {
+    "images": 106,
+    "cases": 212,
+    "all_mask_hashes_verified": true,
+    "all_iou_recomputed": true,
+    "frozen_parameters": true
+  },
+  "extra": {
+    "images": 74,
+    "cases": 148,
+    "all_mask_hashes_verified": true,
+    "all_iou_recomputed": true,
+    "frozen_parameters": true
+  }
+}

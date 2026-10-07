@@ -1,0 +1,116 @@
+{
+  "image_id": "american_pit_bull_terrier_90",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "boundary",
+  "point": [
+    315.0,
+    303.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 12.0
+  },
+  "true_iou": 0.9736805405885113,
+  "confidence": 0.9648026823997498,
+  "stability": 0.791235186362107,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9648026823997498,
+      "consistency": 0.9954645328123262,
+      "minimum": 0.9942848696851752,
+      "fusion": 0.980133607606038,
+      "flip": 0.9706257360598776
+    },
+    "r0.01_k4": {
+      "confidence": 0.9648026823997498,
+      "consistency": 0.9958520606739867,
+      "minimum": 0.9942848696851752,
+      "fusion": 0.9803273715368682,
+      "flip": 0.9706257360598776
+    },
+    "r0.01_k8": {
+      "confidence": 0.9648026823997498,
+      "consistency": 0.9958783941767135,
+      "minimum": 0.9936462591735211,
+      "fusion": 0.9803405382882316,
+      "flip": 0.9706257360598776
+    },
+    "r0.03_k2": {
+      "confidence": 0.9648026823997498,
+      "consistency": 0.6460201349934447,
+      "minimum": 0.2977524770027774,
+      "fusion": 0.8054114086965972,
+      "flip": 0.9706257360598776
+    },
+    "r0.03_k4": {
+      "confidence": 0.9648026823997498,
+      "consistency": 0.8182951923653976,
+      "minimum": 0.2977524770027774,
+      "fusion": 0.8915489373825737,
+      "flip": 0.9706257360598776
+    },
+    "r0.03_k8": {
+      "confidence": 0.9648026823997498,
+      "consistency": 0.9043439838346582,
+      "minimum": 0.2977524770027774,
+      "fusion": 0.9345733331172039,
+      "flip": 0.9706257360598776
+    },
+    "r0.06_k2": {
+      "confidence": 0.9648026823997498,
+      "consistency": 0.0084440274554343,
+      "minimum": 0.0,
+      "fusion": 0.486623354927592,
+      "flip": 0.9706257360598776
+    },
+    "r0.06_k4": {
+      "confidence": 0.9648026823997498,
+      "consistency": 0.4975496432037614,
+      "minimum": 0.0,
+      "fusion": 0.7311761628017556,
+      "flip": 0.9706257360598776
+    },
+    "r0.06_k8": {
+      "confidence": 0.9648026823997498,
+      "consistency": 0.44986780211475674,
+      "minimum": 0.0,
+      "fusion": 0.7073352422572532,
+      "flip": 0.9706257360598776
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.5,
+    "r0.03_k4": 0.25,
+    "r0.03_k8": 0.375,
+    "r0.06_k2": 1.0,
+    "r0.06_k4": 0.5,
+    "r0.06_k8": 0.75
+  },
+  "object_fraction": 0.459946587537092,
+  "timing": {
+    "encoding": 0.24732299998868257,
+    "flip_encoding": 0.2637038000393659,
+    "original_decode": 0.00498710002284497,
+    "flip_decode": 0.005239299964159727,
+    "perturbation_batches_8": {
+      "0.01": 0.018764100037515163,
+      "0.03": 0.019160999916493893,
+      "0.06": 0.01886219996958971
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\american_pit_bull_terrier_90.jpg": "d0591c4974da72542e8bb399c70d3122eb6c66bd41f9692ef4b7d9d53f86f881",
+    "data\\prepared\\pets\\american_pit_bull_terrier_90_target.png": "066a5e7b7468087d487ddebc3a83f931e397b1febaafd0f5e91ad7fe6c8d02dd",
+    "data\\prepared\\pets\\american_pit_bull_terrier_90_valid.png": "f92670eb9f7d8a71230814b472f25a9b797afcd369ad5ed69d0b0dff3f1fa6eb"
+  },
+  "mask_path": "results\\cases\\extra\\american_pit_bull_terrier_90_boundary.npz",
+  "mask_hash": "54d6f1cc988ba25c603620181e377e66edd971d045e2be57a67be6723b5c0259"
+}

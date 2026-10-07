@@ -1,0 +1,116 @@
+{
+  "image_id": "samoyed_75",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "interior",
+  "point": [
+    211.0,
+    282.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 121.0
+  },
+  "true_iou": 0.9914767198993293,
+  "confidence": 0.9447717070579529,
+  "stability": 0.9169829520434482,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9447717070579529,
+      "consistency": 0.9796166650076865,
+      "minimum": 0.963369720295962,
+      "fusion": 0.9621941860328197,
+      "flip": 0.9125635921256359
+    },
+    "r0.01_k4": {
+      "confidence": 0.9447717070579529,
+      "consistency": 0.9878751363399348,
+      "minimum": 0.963369720295962,
+      "fusion": 0.9663234216989438,
+      "flip": 0.9125635921256359
+    },
+    "r0.01_k8": {
+      "confidence": 0.9447717070579529,
+      "consistency": 0.9861645513276441,
+      "minimum": 0.9595761858942455,
+      "fusion": 0.9654681291927985,
+      "flip": 0.9125635921256359
+    },
+    "r0.03_k2": {
+      "confidence": 0.9447717070579529,
+      "consistency": 0.9827190193663768,
+      "minimum": 0.971012088434697,
+      "fusion": 0.9637453632121649,
+      "flip": 0.9125635921256359
+    },
+    "r0.03_k4": {
+      "confidence": 0.9447717070579529,
+      "consistency": 0.9751706292735309,
+      "minimum": 0.9649402214185385,
+      "fusion": 0.9599711681657419,
+      "flip": 0.9125635921256359
+    },
+    "r0.03_k8": {
+      "confidence": 0.9447717070579529,
+      "consistency": 0.972821010263502,
+      "minimum": 0.9606489929991041,
+      "fusion": 0.9587963586607274,
+      "flip": 0.9125635921256359
+    },
+    "r0.06_k2": {
+      "confidence": 0.9447717070579529,
+      "consistency": 0.9892569482036817,
+      "minimum": 0.982305501815099,
+      "fusion": 0.9670143276308173,
+      "flip": 0.9125635921256359
+    },
+    "r0.06_k4": {
+      "confidence": 0.9447717070579529,
+      "consistency": 0.9805547932674845,
+      "minimum": 0.9689660130285234,
+      "fusion": 0.9626632501627187,
+      "flip": 0.9125635921256359
+    },
+    "r0.06_k8": {
+      "confidence": 0.9447717070579529,
+      "consistency": 0.9772069310780716,
+      "minimum": 0.9660240883904575,
+      "fusion": 0.9609893190680122,
+      "flip": 0.9125635921256359
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.46287087087087087,
+  "timing": {
+    "encoding": 0.29083620000164956,
+    "flip_encoding": 0.2794223999371752,
+    "original_decode": 0.006849800003692508,
+    "flip_decode": 0.006360700004734099,
+    "perturbation_batches_8": {
+      "0.01": 0.02112469996791333,
+      "0.03": 0.019913299940526485,
+      "0.06": 0.022180299973115325
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\samoyed_75.jpg": "af4edfc068ad5ce6b06a0fbae2b8c7e41c3bfa7aa4d10c5ec7e6b5f8689be9c3",
+    "data\\prepared\\pets\\samoyed_75_target.png": "8777ce4b066b46e2db1f97f0a2089ec7d0e952b0b537c6742f505b7613e60f89",
+    "data\\prepared\\pets\\samoyed_75_valid.png": "1e2d94985223255bb060c9beab6e026fc30646957684ef70d74ae482b2427770"
+  },
+  "mask_path": "results\\cases\\extra\\samoyed_75_interior.npz",
+  "mask_hash": "6d657f9db66d6ff82ea8cb64c70bae8c7afe913028c5fd1cdc9c45708508c6d1"
+}

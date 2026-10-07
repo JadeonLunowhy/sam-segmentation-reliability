@@ -1,0 +1,116 @@
+{
+  "image_id": "Egyptian_Mau_26",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "boundary",
+  "point": [
+    213.0,
+    175.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 8.48528137423857
+  },
+  "true_iou": 0.9432230856339568,
+  "confidence": 0.9099305272102356,
+  "stability": 0.7812093731172908,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9099305272102356,
+      "consistency": 0.9864846867168229,
+      "minimum": 0.9851904328171912,
+      "fusion": 0.9482076069635292,
+      "flip": 0.9493531608428915
+    },
+    "r0.01_k4": {
+      "confidence": 0.9099305272102356,
+      "consistency": 0.9660210225013419,
+      "minimum": 0.9238263950398583,
+      "fusion": 0.9379757748557888,
+      "flip": 0.9493531608428915
+    },
+    "r0.01_k8": {
+      "confidence": 0.9099305272102356,
+      "consistency": 0.9674414519925375,
+      "minimum": 0.9238263950398583,
+      "fusion": 0.9386859896013866,
+      "flip": 0.9493531608428915
+    },
+    "r0.03_k2": {
+      "confidence": 0.9099305272102356,
+      "consistency": 0.972364673445949,
+      "minimum": 0.9719775820656525,
+      "fusion": 0.9411476003280923,
+      "flip": 0.9493531608428915
+    },
+    "r0.03_k4": {
+      "confidence": 0.9099305272102356,
+      "consistency": 0.9394833651527456,
+      "minimum": 0.865144451628271,
+      "fusion": 0.9247069461814905,
+      "flip": 0.9493531608428915
+    },
+    "r0.03_k8": {
+      "confidence": 0.9099305272102356,
+      "consistency": 0.9083177347964713,
+      "minimum": 0.6556053265076027,
+      "fusion": 0.9091241310033534,
+      "flip": 0.9493531608428915
+    },
+    "r0.06_k2": {
+      "confidence": 0.9099305272102356,
+      "consistency": 0.44882270564850624,
+      "minimum": 0.016978539649306464,
+      "fusion": 0.6793766164293709,
+      "flip": 0.9493531608428915
+    },
+    "r0.06_k4": {
+      "confidence": 0.9099305272102356,
+      "consistency": 0.4577116828572564,
+      "minimum": 0.0,
+      "fusion": 0.6838211050337459,
+      "flip": 0.9493531608428915
+    },
+    "r0.06_k8": {
+      "confidence": 0.9099305272102356,
+      "consistency": 0.5053087021226057,
+      "minimum": 0.0,
+      "fusion": 0.7076196146664206,
+      "flip": 0.9493531608428915
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.5,
+    "r0.03_k4": 0.5,
+    "r0.03_k8": 0.5,
+    "r0.06_k2": 0.5,
+    "r0.06_k4": 0.5,
+    "r0.06_k8": 0.5
+  },
+  "object_fraction": 0.23156286168981483,
+  "timing": {
+    "encoding": 0.26525370008312166,
+    "flip_encoding": 0.2668021999998018,
+    "original_decode": 0.004852500045672059,
+    "flip_decode": 0.0051012999610975385,
+    "perturbation_batches_8": {
+      "0.01": 0.018600899958983064,
+      "0.03": 0.019665000028908253,
+      "0.06": 0.019204300013370812
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\Egyptian_Mau_26.jpg": "40fc0a9021d6c8f3ac1fd9c330a9f7978b184f1a083c62a275007772e5061374",
+    "data\\prepared\\pets\\Egyptian_Mau_26_target.png": "8f61262c8ce0fa6ac028bc7189733707969a7d8faf7ba32f8b78ce928df3e026",
+    "data\\prepared\\pets\\Egyptian_Mau_26_valid.png": "b6551205ba1bbccc205127163b42e133420a1736afa7c4f8de8c8697a03cdc51"
+  },
+  "mask_path": "results\\cases\\extra\\Egyptian_Mau_26_boundary.npz",
+  "mask_hash": "3bfa2023cb3a5c71bde86488ec40ebedbe9499cf5afd247d749404c303d88cde"
+}

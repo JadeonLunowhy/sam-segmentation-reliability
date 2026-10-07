@@ -1,0 +1,6 @@
+{
+  "bytes": 24333813,
+  "sha256": "8b102896191a1e4cda0c98e4a10d071229a7e8fcc81bd72a7de3ebf65351f8ce",
+  "contains": "code, pinned upstream SAM inference source, manifests, all saved predictions, numerical results, figures and submission materials",
+  "excluded": "virtual environment, raw public image archives, pretrained checkpoint and temporary installation files; download with scripts/download_data.py"
+}

@@ -1,0 +1,116 @@
+{
+  "image_id": "189080",
+  "dataset": "iseg",
+  "split": "validation",
+  "regime": "interior",
+  "point": [
+    155.0,
+    195.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 111.8257573191436
+  },
+  "true_iou": 0.5409519750938125,
+  "confidence": 0.9519282579421997,
+  "stability": 0.9546737364235013,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9519282579421997,
+      "consistency": 0.9992348950133974,
+      "minimum": 0.9990161783996502,
+      "fusion": 0.9755815764777985,
+      "flip": 0.991104247776062
+    },
+    "r0.01_k4": {
+      "confidence": 0.9519282579421997,
+      "consistency": 0.9991858788943594,
+      "minimum": 0.9988637605156779,
+      "fusion": 0.9755570684182795,
+      "flip": 0.991104247776062
+    },
+    "r0.01_k8": {
+      "confidence": 0.9519282579421997,
+      "consistency": 0.999183174776876,
+      "minimum": 0.9988637605156779,
+      "fusion": 0.9755557163595379,
+      "flip": 0.991104247776062
+    },
+    "r0.03_k2": {
+      "confidence": 0.9519282579421997,
+      "consistency": 0.998207535523069,
+      "minimum": 0.9976825535636205,
+      "fusion": 0.9750678967326343,
+      "flip": 0.991104247776062
+    },
+    "r0.03_k4": {
+      "confidence": 0.9519282579421997,
+      "consistency": 0.8637414151192211,
+      "minimum": 0.46058053660846526,
+      "fusion": 0.9078348365307104,
+      "flip": 0.991104247776062
+    },
+    "r0.03_k8": {
+      "confidence": 0.9519282579421997,
+      "consistency": 0.9305123120249292,
+      "minimum": 0.46058053660846526,
+      "fusion": 0.9412202849835645,
+      "flip": 0.991104247776062
+    },
+    "r0.06_k2": {
+      "confidence": 0.9519282579421997,
+      "consistency": 0.9960151395708606,
+      "minimum": 0.9943469658426283,
+      "fusion": 0.9739716987565301,
+      "flip": 0.991104247776062
+    },
+    "r0.06_k4": {
+      "confidence": 0.9519282579421997,
+      "consistency": 0.747363113204327,
+      "minimum": 0.0,
+      "fusion": 0.8496456855732634,
+      "flip": 0.991104247776062
+    },
+    "r0.06_k8": {
+      "confidence": 0.9519282579421997,
+      "consistency": 0.6799686665865282,
+      "minimum": 0.0,
+      "fusion": 0.815948462264364,
+      "flip": 0.991104247776062
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.5468552664814347,
+  "timing": {
+    "encoding": 0.5421748000662774,
+    "flip_encoding": 0.3371280999854207,
+    "original_decode": 0.17304279992822558,
+    "flip_decode": 0.006025699898600578,
+    "perturbation_batches_8": {
+      "0.01": 0.020865699974820018,
+      "0.03": 0.021002799971029162,
+      "0.06": 0.02172800002153963
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\iseg\\images\\189080.jpg": "c8db7afe744b586a8fd7ebb535fd73dd764e3c3335c34be4a59b162cea941100",
+    "data\\prepared\\iseg\\189080_target.png": "647a9d0fce77f6691b70fcade13be3d11abd02a4859a1a217f4427ae269c9936",
+    "data\\prepared\\iseg\\189080_valid.png": "0e5748dbcadfa0c8ed2bfdeb3f38abb83d192389c2ece64a28d4b56039ee54bd"
+  },
+  "mask_path": "results\\cases\\validation\\189080_interior.npz",
+  "mask_hash": "b8ab7fc9f1def6875f2ed09fe8e9edf848f60bbb6c12563b656f9e80b82cce48"
+}

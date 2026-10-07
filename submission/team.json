@@ -1,0 +1,11 @@
+{
+  "status": "pending real student information",
+  "members": [],
+  "required_fields": [
+    "name",
+    "student_id",
+    "actual_contribution",
+    "actual_hours",
+    "presentation_segment"
+  ]
+}

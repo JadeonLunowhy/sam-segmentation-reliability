@@ -1,0 +1,32 @@
+{
+  "data/raw/iseg/images.tgz.json": {
+    "url": "https://robots.ox.ac.uk/~vgg/data/iseg/data/images.tgz",
+    "resolved_url": "https://thor.robots.ox.ac.uk/iseg/images.tgz",
+    "bytes": 23030716,
+    "sha256": "88b905dbde17ee980ce2efc78e6e07d54e14c604574a87542c3f2384ce90bd49"
+  },
+  "data/raw/iseg/images-gt.tgz.json": {
+    "url": "https://robots.ox.ac.uk/~vgg/data/iseg/data/images-gt.tgz",
+    "resolved_url": "https://thor.robots.ox.ac.uk/iseg/images-gt.tgz",
+    "bytes": 340590,
+    "sha256": "9e95ab84f39c7118baaf01fe35f7a4a6208340f36d6cd20a24a39592ecdacec8"
+  },
+  "data/raw/pets/annotations.tar.gz.json": {
+    "url": "https://www.robots.ox.ac.uk/~vgg/data/pets/data/annotations.tar.gz",
+    "resolved_url": "https://thor.robots.ox.ac.uk/pets/annotations.tar.gz",
+    "bytes": 19173078,
+    "sha256": "52425fb6de5c424942b7626b428656fcbd798db970a937df61750c0f1d358e91"
+  },
+  "data/raw/pets/test.parquet.json": {
+    "url": "https://huggingface.co/datasets/timm/oxford-iiit-pet/resolve/main/data/test-00000-of-00001.parquet",
+    "bytes": 412654113,
+    "sha256": "0997d4744ee6740e96f17f56b40b97c70076a4e4dad565bc63d0ffd03906f754",
+    "transfer": "verified byte ranges"
+  },
+  "models/sam_vit_b_01ec64.pth.json": {
+    "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth",
+    "bytes": 375042383,
+    "sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+    "transfer": "verified byte ranges"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "python": "3.13.4",
+  "platform": "Windows-11-10.0.26100-SP0",
+  "torch": "2.8.0+cu128",
+  "cuda_available": true,
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "gpu_memory_bytes": 8546484224,
+  "installation_scope": "project/.venv; no system Python or GPU driver changes"
+}

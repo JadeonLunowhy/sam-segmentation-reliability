@@ -1,0 +1,21 @@
+{
+  "selected": "r0.06_k8",
+  "validation_aurc": {
+    "r0.01_k2": 0.4006771048823017,
+    "r0.01_k4": 0.41109606057061104,
+    "r0.01_k8": 0.4117348928400956,
+    "r0.03_k2": 0.3608084307477774,
+    "r0.03_k4": 0.32773944996589816,
+    "r0.03_k8": 0.34374378108464837,
+    "r0.06_k2": 0.33190141335816925,
+    "r0.06_k4": 0.2957954627176695,
+    "r0.06_k8": 0.2931160457719768
+  },
+  "validation_sha256": "bf551876150edabfa865570db306cf518323d2b1b55196c388c85aad5600674e",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "study_sha256": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "rule": "minimum validation fusion AURC; tie by lower K then radius",
+  "validation_images": 45,
+  "validation_cases": 90
+}

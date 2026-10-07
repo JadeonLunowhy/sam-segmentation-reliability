@@ -1,0 +1,116 @@
+{
+  "image_id": "yorkshire_terrier_65",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "interior",
+  "point": [
+    182.0,
+    119.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 43.01162633521314
+  },
+  "true_iou": 0.9899271517222772,
+  "confidence": 0.8984934687614441,
+  "stability": 0.7857568111586766,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.8984934687614441,
+      "consistency": 0.9892521352210424,
+      "minimum": 0.9874930344870286,
+      "fusion": 0.9438728019912432,
+      "flip": 0.9477320163447688
+    },
+    "r0.01_k4": {
+      "confidence": 0.8984934687614441,
+      "consistency": 0.9906526639121593,
+      "minimum": 0.9874930344870286,
+      "fusion": 0.9445730663368017,
+      "flip": 0.9477320163447688
+    },
+    "r0.01_k8": {
+      "confidence": 0.8984934687614441,
+      "consistency": 0.9888712705046145,
+      "minimum": 0.9732549140999845,
+      "fusion": 0.9436823696330293,
+      "flip": 0.9477320163447688
+    },
+    "r0.03_k2": {
+      "confidence": 0.8984934687614441,
+      "consistency": 0.9699870616906383,
+      "minimum": 0.961916841975003,
+      "fusion": 0.9342402652260412,
+      "flip": 0.9477320163447688
+    },
+    "r0.03_k4": {
+      "confidence": 0.8984934687614441,
+      "consistency": 0.7334853761933723,
+      "minimum": 0.008328173374613003,
+      "fusion": 0.8159894224774082,
+      "flip": 0.9477320163447688
+    },
+    "r0.03_k8": {
+      "confidence": 0.8984934687614441,
+      "consistency": 0.7346723764674209,
+      "minimum": 0.0030030959752321983,
+      "fusion": 0.8165829226144325,
+      "flip": 0.9477320163447688
+    },
+    "r0.06_k2": {
+      "confidence": 0.8984934687614441,
+      "consistency": 0.9729300332452802,
+      "minimum": 0.9631784680571719,
+      "fusion": 0.9357117510033621,
+      "flip": 0.9477320163447688
+    },
+    "r0.06_k4": {
+      "confidence": 0.8984934687614441,
+      "consistency": 0.9765009368135378,
+      "minimum": 0.9631784680571719,
+      "fusion": 0.9374972027874909,
+      "flip": 0.9477320163447688
+    },
+    "r0.06_k8": {
+      "confidence": 0.8984934687614441,
+      "consistency": 0.9768544319684818,
+      "minimum": 0.9631784680571719,
+      "fusion": 0.9376739503649629,
+      "flip": 0.9477320163447688
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.11860266666666666,
+  "timing": {
+    "encoding": 0.2519150000298396,
+    "flip_encoding": 0.2897922000847757,
+    "original_decode": 0.006440800032578409,
+    "flip_decode": 0.006194500019773841,
+    "perturbation_batches_8": {
+      "0.01": 0.020879599964246154,
+      "0.03": 0.02163750003091991,
+      "0.06": 0.021636800025589764
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\yorkshire_terrier_65.jpg": "725c68879c2f313a759543bc46becbee2b8990dbbb18377d6cdef459f5b0f82d",
+    "data\\prepared\\pets\\yorkshire_terrier_65_target.png": "5f0ef90aeff9c8b95a2c01b43dbd0945286376fb5cf455f00920a45b1eced06c",
+    "data\\prepared\\pets\\yorkshire_terrier_65_valid.png": "2aa89ba0ef6c7901d48a550935c2636259476b784e98b92a0d51b693b5fc97f5"
+  },
+  "mask_path": "results\\cases\\extra\\yorkshire_terrier_65_interior.npz",
+  "mask_hash": "f6fea92589968e9df658c536065ea3e1ee8e55d7d51fc924054aedc6b35e92b6"
+}

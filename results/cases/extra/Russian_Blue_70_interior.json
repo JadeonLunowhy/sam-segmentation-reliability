@@ -1,0 +1,116 @@
+{
+  "image_id": "Russian_Blue_70",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "interior",
+  "point": [
+    128.0,
+    246.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 54.0
+  },
+  "true_iou": 0.9974150664697193,
+  "confidence": 0.9758538603782654,
+  "stability": 0.9446268491533553,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9758538603782654,
+      "consistency": 0.9977158359458818,
+      "minimum": 0.9968313843832516,
+      "fusion": 0.9867848481620736,
+      "flip": 0.9829216338428193
+    },
+    "r0.01_k4": {
+      "confidence": 0.9758538603782654,
+      "consistency": 0.9939512073510688,
+      "minimum": 0.9836543191191495,
+      "fusion": 0.9849025338646671,
+      "flip": 0.9829216338428193
+    },
+    "r0.01_k8": {
+      "confidence": 0.9758538603782654,
+      "consistency": 0.9931402802863567,
+      "minimum": 0.9836543191191495,
+      "fusion": 0.984497070332311,
+      "flip": 0.9829216338428193
+    },
+    "r0.03_k2": {
+      "confidence": 0.9758538603782654,
+      "consistency": 0.9963392645100076,
+      "minimum": 0.9956649577804584,
+      "fusion": 0.9860965624441365,
+      "flip": 0.9829216338428193
+    },
+    "r0.03_k4": {
+      "confidence": 0.9758538603782654,
+      "consistency": 0.9920984780449007,
+      "minimum": 0.9812847366630119,
+      "fusion": 0.983976169211583,
+      "flip": 0.9829216338428193
+    },
+    "r0.03_k8": {
+      "confidence": 0.9758538603782654,
+      "consistency": 0.989808212534292,
+      "minimum": 0.9783620200491773,
+      "fusion": 0.9828310364562787,
+      "flip": 0.9829216338428193
+    },
+    "r0.06_k2": {
+      "confidence": 0.9758538603782654,
+      "consistency": 0.9948065587944962,
+      "minimum": 0.9940318803354234,
+      "fusion": 0.9853302095863807,
+      "flip": 0.9829216338428193
+    },
+    "r0.06_k4": {
+      "confidence": 0.9758538603782654,
+      "consistency": 0.9889210615113895,
+      "minimum": 0.9773415040096838,
+      "fusion": 0.9823874609448274,
+      "flip": 0.9829216338428193
+    },
+    "r0.06_k8": {
+      "confidence": 0.9758538603782654,
+      "consistency": 0.8484901882318192,
+      "minimum": 0.012221423436376708,
+      "fusion": 0.9121720243050423,
+      "flip": 0.9829216338428193
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.0,
+    "r0.03_k4": 0.0,
+    "r0.03_k8": 0.0,
+    "r0.06_k2": 0.0,
+    "r0.06_k4": 0.0,
+    "r0.06_k8": 0.0
+  },
+  "object_fraction": 0.1301141141141141,
+  "timing": {
+    "encoding": 0.2684552000137046,
+    "flip_encoding": 0.2704997999826446,
+    "original_decode": 0.0058240999933332205,
+    "flip_decode": 0.006342299981042743,
+    "perturbation_batches_8": {
+      "0.01": 0.02214440004900098,
+      "0.03": 0.020369299920275807,
+      "0.06": 0.01987139997072518
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\Russian_Blue_70.jpg": "b04a395be0da2d38988b2c2052c64d361afa7a5812d1c2b1dcbfa85e7672bbc4",
+    "data\\prepared\\pets\\Russian_Blue_70_target.png": "2bde583360fd8111354f21ea9e1b72dd0ff816476e513d2fe0a4ef6a83ee1c46",
+    "data\\prepared\\pets\\Russian_Blue_70_valid.png": "797b49c1b4dcbe0e50acb5123c96c799ac0e2897c6b0f2d5b827511203469eee"
+  },
+  "mask_path": "results\\cases\\extra\\Russian_Blue_70_interior.npz",
+  "mask_hash": "3ba91a3fdcc9bf0cc34b4fd921f4c73d31fc4fd4bdd69b70fd6af1b5d9d32c82"
+}

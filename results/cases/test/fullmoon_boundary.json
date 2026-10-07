@@ -1,0 +1,116 @@
+{
+  "image_id": "fullmoon",
+  "dataset": "iseg",
+  "split": "test",
+  "regime": "boundary",
+  "point": [
+    237.0,
+    136.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 9.219544457292887
+  },
+  "true_iou": 0.9992501339046599,
+  "confidence": 1.0047852993011475,
+  "stability": 0.9887698330929322,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 1.0047852993011475,
+      "consistency": 0.9993786890271992,
+      "minimum": 0.9993786246893124,
+      "fusion": 0.9996893445135996,
+      "flip": 0.9972084367245657
+    },
+    "r0.01_k4": {
+      "confidence": 1.0047852993011475,
+      "consistency": 0.9993787747544455,
+      "minimum": 0.9991720140757607,
+      "fusion": 0.9996893873772228,
+      "flip": 0.9972084367245657
+    },
+    "r0.01_k8": {
+      "confidence": 1.0047852993011475,
+      "consistency": 0.999365837479092,
+      "minimum": 0.9991719283718041,
+      "fusion": 0.999682918739546,
+      "flip": 0.9972084367245657
+    },
+    "r0.03_k2": {
+      "confidence": 1.0047852993011475,
+      "consistency": 0.49948250879735046,
+      "minimum": 0.0,
+      "fusion": 0.7497412543986752,
+      "flip": 0.9972084367245657
+    },
+    "r0.03_k4": {
+      "confidence": 1.0047852993011475,
+      "consistency": 0.49901624145201545,
+      "minimum": 0.0,
+      "fusion": 0.7495081207260077,
+      "flip": 0.9972084367245657
+    },
+    "r0.03_k8": {
+      "confidence": 1.0047852993011475,
+      "consistency": 0.6240552033265989,
+      "minimum": 0.0,
+      "fusion": 0.8120276016632995,
+      "flip": 0.9972084367245657
+    },
+    "r0.06_k2": {
+      "confidence": 1.0047852993011475,
+      "consistency": 0.49917244232957486,
+      "minimum": 0.0,
+      "fusion": 0.7495862211647875,
+      "flip": 0.9972084367245657
+    },
+    "r0.06_k4": {
+      "confidence": 1.0047852993011475,
+      "consistency": 0.4989906748157455,
+      "minimum": 0.0,
+      "fusion": 0.7494953374078728,
+      "flip": 0.9972084367245657
+    },
+    "r0.06_k8": {
+      "confidence": 1.0047852993011475,
+      "consistency": 0.499223682642272,
+      "minimum": 0.0,
+      "fusion": 0.749611841321136,
+      "flip": 0.9972084367245657
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.5,
+    "r0.03_k4": 0.5,
+    "r0.03_k8": 0.375,
+    "r0.06_k2": 0.5,
+    "r0.06_k4": 0.5,
+    "r0.06_k8": 0.5
+  },
+  "object_fraction": 0.06029734970911441,
+  "timing": {
+    "encoding": 0.25728249992243946,
+    "flip_encoding": 0.27751529996749014,
+    "original_decode": 0.006064499961212277,
+    "flip_decode": 0.005886099999770522,
+    "perturbation_batches_8": {
+      "0.01": 0.019184699980542064,
+      "0.03": 0.019088599947281182,
+      "0.06": 0.020249299937859178
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\iseg\\images\\fullmoon.bmp": "a687cbc025984eb566aa4a77e9f6b8ec32d3f5bbb1ae3d3399f1d216675a0ef3",
+    "data\\prepared\\iseg\\fullmoon_target.png": "5c0722ff9f42a9befe9d8ecbfd7e20091325361fb277598e37e5bfc0c9e8c56b",
+    "data\\prepared\\iseg\\fullmoon_valid.png": "22cc2f8126a977999da5ac038c8e1257fa8e7c011978c327ad475b4621d9d18b"
+  },
+  "mask_path": "results\\cases\\test\\fullmoon_boundary.npz",
+  "mask_hash": "45e36e3c31c0728d3d3761c63408f8900e815874c780bde462b1aa5fedf868e3"
+}

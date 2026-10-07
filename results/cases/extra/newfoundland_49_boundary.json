@@ -1,0 +1,116 @@
+{
+  "image_id": "newfoundland_49",
+  "dataset": "pets",
+  "split": "extra",
+  "regime": "boundary",
+  "point": [
+    349.0,
+    61.0
+  ],
+  "prompt_diagnostics": {
+    "fallback": false,
+    "distance_to_boundary": 5.830951894845301
+  },
+  "true_iou": 0.0919658670101433,
+  "confidence": 0.9767574071884155,
+  "stability": 0.9486761710794297,
+  "sweep": {
+    "r0.01_k2": {
+      "confidence": 0.9767574071884155,
+      "consistency": 0.9936726659167604,
+      "minimum": 0.9892250310816411,
+      "fusion": 0.985215036552588,
+      "flip": 0.9765948632974316
+    },
+    "r0.01_k4": {
+      "confidence": 0.9767574071884155,
+      "consistency": 0.9943355166272574,
+      "minimum": 0.9892250310816411,
+      "fusion": 0.9855464619078365,
+      "flip": 0.9765948632974316
+    },
+    "r0.01_k8": {
+      "confidence": 0.9767574071884155,
+      "consistency": 0.9947729235359071,
+      "minimum": 0.9892250310816411,
+      "fusion": 0.9857651653621613,
+      "flip": 0.9765948632974316
+    },
+    "r0.03_k2": {
+      "confidence": 0.9767574071884155,
+      "consistency": 0.5088723534813576,
+      "minimum": 0.02588666938442723,
+      "fusion": 0.7428148803348866,
+      "flip": 0.9765948632974316
+    },
+    "r0.03_k4": {
+      "confidence": 0.9767574071884155,
+      "consistency": 0.7509088916959527,
+      "minimum": 0.02588666938442723,
+      "fusion": 0.863833149442184,
+      "flip": 0.9765948632974316
+    },
+    "r0.03_k8": {
+      "confidence": 0.9767574071884155,
+      "consistency": 0.6360816448131721,
+      "minimum": 0.0,
+      "fusion": 0.8064195260007938,
+      "flip": 0.9765948632974316
+    },
+    "r0.06_k2": {
+      "confidence": 0.9767574071884155,
+      "consistency": 0.49112549592816873,
+      "minimum": 0.0,
+      "fusion": 0.7339414515582922,
+      "flip": 0.9765948632974316
+    },
+    "r0.06_k4": {
+      "confidence": 0.9767574071884155,
+      "consistency": 0.27477563165846886,
+      "minimum": 0.0,
+      "fusion": 0.6257665194234422,
+      "flip": 0.9765948632974316
+    },
+    "r0.06_k8": {
+      "confidence": 0.9767574071884155,
+      "consistency": 0.39772701781055597,
+      "minimum": 0.0,
+      "fusion": 0.6872422124994857,
+      "flip": 0.9765948632974316
+    }
+  },
+  "outside": {
+    "r0.01_k2": 0.0,
+    "r0.01_k4": 0.0,
+    "r0.01_k8": 0.0,
+    "r0.03_k2": 0.5,
+    "r0.03_k4": 0.5,
+    "r0.03_k8": 0.375,
+    "r0.06_k2": 0.5,
+    "r0.06_k4": 0.5,
+    "r0.06_k8": 0.5
+  },
+  "object_fraction": 0.18651651651651652,
+  "timing": {
+    "encoding": 0.2680842000991106,
+    "flip_encoding": 0.2682161000557244,
+    "original_decode": 0.006168900057673454,
+    "flip_decode": 0.006056500016711652,
+    "perturbation_batches_8": {
+      "0.01": 0.01982839999254793,
+      "0.03": 0.02006720006465912,
+      "0.06": 0.01917069999035448
+    }
+  },
+  "device": "cuda",
+  "config_hash": "abc6dd898bf64615226680417891b6eed4fc18f9649d766b0818f09a582a958a",
+  "model_hash": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912",
+  "data_manifest_hash": "3a7552307eca5492d726a92805df8b6c63ec770d7f80b6247f8bdbffa8a944a3",
+  "data_files": {
+    "data\\raw\\pets\\images\\newfoundland_49.jpg": "adfca8a9084c6fb7e065eec6dfaf92d39cd2b63c7b6f83350d0e8eccc4d7152b",
+    "data\\prepared\\pets\\newfoundland_49_target.png": "bca2d2b029061ff7436294601fb110aa70036f9f326878b6bcdff8ea92087c0e",
+    "data\\prepared\\pets\\newfoundland_49_valid.png": "4f749c912df1fac2d18c65e555ca8cf221c68d910a849fe22386d5568bf01e53"
+  },
+  "mask_path": "results\\cases\\extra\\newfoundland_49_boundary.npz",
+  "mask_hash": "0358b93d6149a840ec17d53033756f3e3fd4d83a79ef47c6a6bc3ca888515379"
+}
